@@ -15,7 +15,7 @@ import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoDiscord } from "react-icons/io5";
-const Home = () => (
+const Business = () => (
   <Layout>
     <Container>
       <Box
@@ -119,4 +119,4 @@ const Home = () => (
   </Layout>
 )
 
-export default Home
+export default Business
