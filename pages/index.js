@@ -19,8 +19,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoDiscord } from 'react-icons/io5'
-import thumbYouTube from '../public/images/contents/dadjoke.jpg'
-import thumbInkdrop from '../public/images/contents/notesapp.jpg'
+import thumbdadjoke from '../public/images/contents/dadjoke.png'
+import thumbnotesapp from '../public/images/contents/notesapp.jpg'
 
 const Home = () => (
   <Layout>
@@ -173,14 +173,14 @@ const Home = () => (
           <GridItem
             href="https://dadjoke.vercel.app"
             title="Dad Jokes"
-            thumbnail={thumbYouTube}
+            thumbnail={thumbdadjoke}
           >
             The Best Dad Jokes Ever
           </GridItem>
           <GridItem
             href="https://notednow.vercel.app"
             title="Notes App"
-            thumbnail={thumbInkdrop}
+            thumbnail={thumbnotesapp}
           >
            Save Your Important Notes 
           </GridItem>
