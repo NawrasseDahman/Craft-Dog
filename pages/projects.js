@@ -13,9 +13,11 @@ import thumb500PaidUsers from "../public/images/contents/notingapp.png";
 import thumbFinancialGoal from "../public/images/contents/house3d.png";
 import thumbHowToPriceYourself from "../public/images/contents/statsforcovid.png";
 import thumb50xFaster from "../public/images/contents/innocent.png";
+import thumbthemechanger from "../public/images/contents/themechanger.png";
+import thumbsuperstardj from "../public/images/contents/superstardj.png";
 
 const Posts = () => (
-  <Layout title="Posts">
+  <Layout title="Projects">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Popular Posts
@@ -62,6 +64,21 @@ const Posts = () => (
             title="Innocent Discord SelfBot"
             thumbnail={thumb50xFaster}
             href="https://github.com/NawrasseDahman/Innocent"
+          />
+        </SimpleGrid>
+      </Section>
+
+<Section delay={0.5}>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            title="Superstar DJ For Your Every Mood"
+            thumbnail={thumbsuperstardj}
+            href="https://codepen.io/nawrassedahman/pen/dyWmpoe"
+          />
+          <GridItem
+            title="Theme Changer For Your Website"
+            thumbnail={thumbthemechanger}
+            href="https://themeicons.vercel.app"
           />
         </SimpleGrid>
       </Section>
