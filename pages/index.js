@@ -114,7 +114,8 @@ const Home = () => (
         <Paragraph>
           HTML | CSS | SASS | Javascript | Typescript | Markdown |
           Next.js | Express.js | Vue.js | Node.js | Python | Electron.js |
-          Java | Ruby | Go | Json | Flask | Shell Script | NPM | Pug.
+          Java | Ruby | Go | Json | Flask | Shell Script | NPM | Pug | Three.js |
+          Chakra-UI.
         </Paragraph>
       </Section>
 
