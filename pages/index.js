@@ -66,7 +66,7 @@ const Home = () => (
           Who Am I
         </Heading>
         <Paragraph>
-          Nawrasse Is A Freelancer And A Full-Stack Developer & Designer Based In Tangier With Passion For 
+          Nawrasse Is A Full-Stack Developer & Designer Based In Tangier With Passion For 
           Building Digital Services / Stuff He Wants Or Likes Or Even Needs. He Knows A Lot Of Programming
           Languages, Which Makes Him An Expert At Doing His Thing.
           When Not Online, He Loves Hanging Out With His Family & Animals. Currently, He&apos;s Focusing On His
