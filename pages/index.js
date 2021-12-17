@@ -38,7 +38,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Dreams Make Good Stories, My Friend
+            Dreams Make Good Stories, My Friend.
           </Heading>
           <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         </Box>
@@ -55,7 +55,7 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/profile.png"
+            src="/nawrasse.png"
             alt="Profile image"
           />
         </Box>
