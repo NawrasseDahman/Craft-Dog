@@ -33,7 +33,7 @@ const Business = () => (
           <Heading as="h2" variant="page-title">
             If You Work, It Will Work
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Digital Craftsman ( Developer / Designer )</p>
         </Box>
         <Box
           flexShrink={0}
