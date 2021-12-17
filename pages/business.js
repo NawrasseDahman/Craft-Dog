@@ -8,7 +8,6 @@ import {
   List,
   ListItem,
   Icon,
-  Image,
   useColorModeValue
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -32,7 +31,8 @@ const Business = () => (
       <Box display={{ md: "flex" }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            If You Work, It Will Work
+            If You Work,
+            It Will Work.
           </Heading>
           <p>Digital Craftsman ( Developer / Designer )</p>
         </Box>
