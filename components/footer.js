@@ -4,11 +4,10 @@ import Section from '../components/section'
 const Footer = () => {
   return (
     <Box align="center" opacity={0.4} fontSize="sm">
-    <Section delay={0.4}> 
+    <Section delay={0.4} />
     <Divider my={6} />
       &copy; {new Date().getFullYear()} Nawrasse Dahman. All Rights Reserved.
     </Box>
-    </section>
   )
 }
 
