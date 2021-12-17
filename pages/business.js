@@ -8,6 +8,7 @@ import {
   List,
   ListItem,
   Icon,
+  Image,
   useColorModeValue
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -42,7 +43,16 @@ const Business = () => (
           textAlign="center"
         ></Box>
       </Box>
-
+         <Image
+            borderColor="whiteAlpha.800"
+            borderWidth={2}
+            borderStyle="solid"
+            maxWidth="100px"
+            display="inline-block"
+            borderRadius="full"
+            src="/nawrasse.png"
+            alt="Profile image"
+          />
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           Business Offers
