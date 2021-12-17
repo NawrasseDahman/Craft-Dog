@@ -42,7 +42,13 @@ const Business = () => (
           ml={{ md: 6 }}
           textAlign="center"
         ></Box>
-      </Box>
+      </Box>        
+        <Box
+          flexShrink={0}
+          mt={{ base: 4, md: 0 }}
+          ml={{ md: 6 }}
+          textAlign="center"
+        ></Box>
          <Image
             borderColor="whiteAlpha.800"
             borderWidth={2}
