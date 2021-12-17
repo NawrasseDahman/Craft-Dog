@@ -55,7 +55,7 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/nawrasse.jpg"
+            src="/profile.jpg"
             alt="Profile image"
           />
         </Box>
