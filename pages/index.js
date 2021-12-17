@@ -40,7 +40,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Dreams Make Good Stories, My Friend.
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Digital Craftsman ( Developer / Designer )</p>
         </Box>
         <Box
           flexShrink={0}
