@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { FaCodepen, FaSpotify, FaUserAstronaut, FaBuffer } from 'react-icons/fa';
+import { FaCodepen, FaSpotify, FaIntercom, FaBuffer } from 'react-icons/fa';
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -80,7 +80,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <FaUserAstronaut />
+            <FaIntercom />
             Business
           </LinkItem>
           <LinkItem 
