@@ -18,7 +18,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoDiscord, IoLogoFillMail } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoDiscord, IoMail } from 'react-icons/io5'
 import thumbdadjoke from '../public/images/contents/dadjoke.png'
 import thumbnotesapp from '../public/images/contents/notesapp.jpg'
 
@@ -158,20 +158,14 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://discord.com/users/878309088126197860" target="_blank">
+            
+    
+         
+            <Link href="mailto:nawrassehimself@gmail.com" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={IoLogoDiscord} />}
-              >
-                @NawrasseDahman
-              </Button>
-            </Link>
-            <Link href="https://discord.com/users/878309088126197860" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoFillMail} />}
+                leftIcon={<Icon as={IoMail} />}
               >
                 Nawrassehimself@gmail.com
               </Button>
