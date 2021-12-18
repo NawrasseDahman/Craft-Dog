@@ -16,10 +16,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoMail } from 'react-icons/io5'
-import thumbdadjoke from '../public/images/contents/dadjoke.png'
-import thumbnotesapp from '../public/images/contents/notesapp.jpg'
 
 const Home = () => (
   <Layout>
