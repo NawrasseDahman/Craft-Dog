@@ -15,6 +15,8 @@ import thumbcovid from "../public/images/contents/statsforcovid.png";
 import thumbinnocent from "../public/images/contents/innocent.png";
 import thumbthemechanger from "../public/images/contents/themechanger.png";
 import thumbsuperstardj from "../public/images/contents/superstardj.png";
+import thumbdiscordstage from "../public/images/contents/discordstage.png";
+import thumbmatrixrain from "../public/images/contents/matrixrain.png";
 
 const Projects = () => (
   <Layout title="Projects">
@@ -68,7 +70,7 @@ const Projects = () => (
         </SimpleGrid>
       </Section>
 
-<Section delay={0.5}>
+      <Section delay={0.5}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Superstar DJ For Your Every Mood"
@@ -79,6 +81,27 @@ const Projects = () => (
             title="Theme Changer For Your Website"
             thumbnail={thumbthemechanger}
             href="https://themeicons.vercel.app"
+          />
+        </SimpleGrid>
+      </Section>
+
+       <Section delay={0.4} />
+        <Divider my={6} />
+         <Heading as="h3" fontSize={20} mb={4}>
+          Old Projects
+         </Heading>
+
+        <Section delay={0.5} />
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            title="Discord Stage Room"
+            thumbnail={thumbdiscordstage}
+            href="https://discordstageroom.vercel.app"
+          />
+          <GridItem
+            title="A Recreation Of The Classic Matrix Code Rain Effect"
+            thumbnail={thumbmatrixrain}
+            href="https://matrixrain.vercel.app"
           />
         </SimpleGrid>
       </Section>
