@@ -9,6 +9,7 @@ import {
   List,
   ListItem,
   Icon,
+  SimpleGrid,
   useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -18,6 +19,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoSnapchat, IoLogoDiscord, IoLogoFacebook } from 'react-icons/io5';
 import { IoMdAt, IoMdWifi } from 'react-icons/io';
+import { GridItem } from '../components/grid-item'
 
 const Home = () => (
   <Layout>
@@ -116,7 +118,7 @@ const Home = () => (
         </Paragraph>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.4}>
         <Heading as="h3" variant="section-title">
           Social Media
         </Heading>
@@ -202,6 +204,23 @@ const Home = () => (
             </Link>
           </ListItem>
         </List>
+
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            href="/"
+            title=""
+            thumbnail={}
+          >
+            
+          </GridItem>
+          <GridItem
+            href="/"
+            title=""
+            thumbnail={}
+          >
+            
+          </GridItem>
+        </SimpleGrid>
 
         <Box align="center" my={4}>
           <NextLink href="/projects">
