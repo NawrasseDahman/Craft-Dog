@@ -108,10 +108,10 @@ const Home = () => (
           Technologies
         </Heading>
         <Paragraph>
-          HTML | CSS | SASS | Javascript | Typescript | Markdown |
-          Next.js | Express.js | Vue.js | Node.js | Python | Electron.js |
-          Java | Ruby | Go | Json | Flask | Shell Script | NPM | Pug | Three.js |
-          Chakra-UI.
+          Html, Css, Sass/Scss, Javascript, Typescript, Markdown,
+          Next.js, Express.js, Vue.js, Node.js, Python, Electron.js,
+          Java, Ruby, Go, Json, Flask, Shell Script, Npm, Pug, Three.js,
+          Chakra-Ui.
         </Paragraph>
       </Section>
 
