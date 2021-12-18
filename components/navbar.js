@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoMdWifi, IoIosListBox, IoIosBusiness } from 'react-icons/io'
+import { IoMdWifi, IoIosListBox, IoIosBusiness, IoLogoCodepen } from 'react-icons/io'
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -97,7 +97,19 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href="https://open.spotify.com/user/4pevqlgntbtzf7quj0q307245?si=i38Ih3MgQTuypyjtO7cH6w&utm_source=copy-link"
+            href="https://codepen.io/nawrassedahman"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoCodepen />
+            Codepen
+          </LinkItem>
+          <LinkItem
+            _target="_blank"
+            href=""
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -107,7 +119,7 @@ const Navbar = props => {
             <IoMdWifi />
             Spotify
           </LinkItem>
-        </Stack>
+          </Stack>
 
         <Box flex={1} align="right">
           <ThemeToggleButton />
