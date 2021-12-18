@@ -16,6 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
+import { IoIosBriefcase } from "react-icons/io"
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -71,7 +72,7 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/business" path={path}>
-            Business
+            <IoIosBriefcase /> Business
           </LinkItem>
           <LinkItem href="/projects" path={path}>
             Projects
