@@ -109,7 +109,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href=""
+            href="https://open.spotify.com/user/4pevqlgntbtzf7quj0q307245?si=i38Ih3MgQTuypyjtO7cH6w&utm_source=copy-link"
             path={path}
             display="inline-flex"
             alignItems="center"
