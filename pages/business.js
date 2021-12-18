@@ -15,6 +15,8 @@ import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoDiscord } from "react-icons/io5";
+import { IoMdAt } from 'react-icons/io';
+
 const Business = () => (
   <Layout>
     <Container>
@@ -82,11 +84,11 @@ If You Have Any Questions Or Would Just Like To Say Hi,  You Can Dm Me On Any O
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/nawrassedahman" target="_blank">
+            <Link href="mailto:nawrassehimself@gmail.com" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={IoLogoInstagram} />}
+                leftIcon={<Icon as={IoMdAt} />}
               >
                 @NawrasseDahman
               </Button>
