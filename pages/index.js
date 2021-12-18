@@ -5,7 +5,6 @@ import {
   Heading,
   Box,
   Image,
-  SimpleGrid,
   Button,
   List,
   ListItem,
@@ -158,9 +157,6 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            
-    
-         
             <Link href="mailto:nawrassehimself@gmail.com" target="_blank">
               <Button
                 variant="ghost"
@@ -172,23 +168,6 @@ const Home = () => (
             </Link>
           </ListItem>
         </List>
-
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://dadjoke.vercel.app"
-            title="Dad Jokes"
-            thumbnail={thumbdadjoke}
-          >
-            The Best Dad Jokes Ever
-          </GridItem>
-          <GridItem
-            href="https://notednow.vercel.app"
-            title="Notes App"
-            thumbnail={thumbnotesapp}
-          >
-           Save Your Important Notes 
-          </GridItem>
-        </SimpleGrid>
 
         <Box align="center" my={4}>
           <NextLink href="/projects">
