@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { IconButton, useColorMode, useColorModeValue } from '@chakra-ui/react'
-import { FaRegMoon, FaRegSun } from 'react-icons/fa';'
+import { FaRegMoon, FaRegSun } from 'react-icons/fa'
 
 const ThemeToggleButton = () => {
   const { toggleColorMode } = useColorMode()
