@@ -103,18 +103,6 @@ const Home = () => (
         </BioSection>
       </Section>
 
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          Technologies
-        </Heading>
-        <Paragraph>
-          Html, Css, Sass/Scss, Javascript, Typescript, Markdown,
-          Next.js, Express.js, Vue.js, Node.js, Python, Electron.js,
-          Java, Ruby, Go, Json, Flask, Shell Script, Npm, Pug, Three.js,
-          Chakra-Ui.
-        </Paragraph>
-      </Section>
-
       <Section delay={0.4}>
         <Heading as="h3" variant="section-title">
           Social Media
