@@ -16,8 +16,8 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoSnapchat, IoLogoDiscord } from 'react-icons/io5';
-import { IoMdAt } from 'react-icons/io';
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoSnapchat, IoLogoDiscord, IoLogoFacebook } from 'react-icons/io5';
+import { IoMdAt, IoMdWifi } from 'react-icons/io';
 
 const Home = () => (
   <Layout>
@@ -178,6 +178,24 @@ const Home = () => (
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoSnapchat} />}
+              >
+                @NawrasseDahman
+              </Button>
+            </Link>
+            <Link href="https://www.facebook.com/nawrassedahman" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoFacebook} />}
+              >
+                @NawrasseDahman
+              </Button>
+            </Link>
+            <Link href="https://open.spotify.com/user/4pevqlgntbtzf7quj0q307245?si=i38Ih3MgQTuypyjtO7cH6w&utm_source=copy-link" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoMdWifi} />}
               >
                 @NawrasseDahman
               </Button>
