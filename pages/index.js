@@ -9,7 +9,6 @@ import {
   List,
   ListItem,
   Icon,
-  SimpleGrid,
   useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -19,9 +18,6 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoSnapchat, IoLogoDiscord, IoLogoFacebook } from 'react-icons/io5';
 import { IoMdAt, IoMdWifi } from 'react-icons/io';
-import { GridItem } from '../components/grid-item'
-import thumburbansass from '../public/images/contents/UrbanSASS.png'
-import thumbpixelcreator from '../public/images/contents/PixelCreator.png'
 
 const Home = () => (
   <Layout>
@@ -177,15 +173,6 @@ const Home = () => (
                 @NawrasseDahman
               </Button>
             </Link>
-            <Link href="https://www.snapchat.com/add/nawrassedahman" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoSnapchat} />}
-              >
-                @NawrasseDahman
-              </Button>
-            </Link>
             <Link href="https://www.facebook.com/nawrassedahman" target="_blank">
               <Button
                 variant="ghost"
@@ -195,34 +182,8 @@ const Home = () => (
                 @NawrasseDahman
               </Button>
             </Link>
-            <Link href="https://open.spotify.com/user/4pevqlgntbtzf7quj0q307245?si=i38Ih3MgQTuypyjtO7cH6w&utm_source=copy-link" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoMdWifi} />}
-              >
-                @NawrasseDahman
-              </Button>
-            </Link>
           </ListItem>
         </List>
-
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://github.com/UrbanSASS"
-            title="Urban SASS Development"
-            thumbnail={thumburbansass}
-          >
-            
-          </GridItem>
-          <GridItem
-            href="https://pixelcreator.vercel.app"
-            title="Pixel Creator Website"
-            thumbnail={thumbpixelcreator}
-          >
-            
-          </GridItem>
-        </SimpleGrid>
 
         <Box align="center" my={4}>
           <NextLink href="/projects">
