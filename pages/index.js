@@ -20,6 +20,8 @@ import Section from '../components/section'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoSnapchat, IoLogoDiscord, IoLogoFacebook } from 'react-icons/io5';
 import { IoMdAt, IoMdWifi } from 'react-icons/io';
 import { GridItem } from '../components/grid-item'
+import thumburbansass from '../public/images/contents/UrbanSASS.png'
+import thumbpixelcreator from '../public/images/contents/PixelCreator.png'
 
 const Home = () => (
   <Layout>
@@ -207,16 +209,16 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="/"
-            title=""
-            thumbnail={}
+            href="https://github.com/UrbanSASS"
+            title="Urban SASS Development"
+            thumbnail={thumburbansass}
           >
             
           </GridItem>
           <GridItem
-            href="/"
-            title=""
-            thumbnail={}
+            href="https://pixelcreator.vercel.app"
+            title="Pixel Creator Website"
+            thumbnail={thumbpixelcreator}
           >
             
           </GridItem>
