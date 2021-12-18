@@ -1,4 +1,4 @@
-import Logo from './logo'
+ import Logo from './logo'
 import NextLink from 'next/link'
 import {
   Container,
@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoIosBriefcase } from "react-icons/io"
+import { IoIosBriefcase } from 'react-icons/io'
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -72,21 +72,10 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/business" path={path}>
-            <IoIosBriefcase /> Business
+            Business
           </LinkItem>
           <LinkItem href="/projects" path={path}>
             Projects
-          </LinkItem>
-          <LinkItem
-            _target="_blank"
-            href="https://codepen.io/NawrasseDahman"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            Codepen
           </LinkItem>
           <LinkItem
             _target="_blank"
@@ -97,6 +86,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
+            <IoIosBriefcase />
             Spotify
           </LinkItem>
         </Stack>
@@ -123,12 +113,6 @@ const Navbar = props => {
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
                 <MenuItem
-                  as={Link}
-                  href="https://codepen.io/NawrasseDahman"
-                >
-                  Codepen
-                </MenuItem>
-                 <MenuItem
                   as={Link}
                   href="https://open.spotify.com/user/4pevqlgntbtzf7quj0q307245?si=i38Ih3MgQTuypyjtO7cH6w&utm_source=copy-link"
                 >
