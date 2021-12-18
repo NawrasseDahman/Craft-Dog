@@ -1,7 +1,8 @@
 import {
   Container,
   Heading,
-  SimpleGrid
+  SimpleGrid,
+  Divider
 } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
@@ -20,7 +21,7 @@ import thumbmatrixrain from "../public/images/contents/matrixrain.png";
 
 const Projects = () => (
   <Layout title="Projects">
-    <Container>
+    <Container />
       <Heading as="h3" fontSize={20} mb={4}>
         Popular Projects
       </Heading>
