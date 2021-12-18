@@ -11,12 +11,12 @@ import {
   Icon,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook } from 'react-icons/io5';
+import { FaRegCaretSquareRight } from "react-icons/fa";
 
 const Home = () => (
   <Layout>
@@ -70,7 +70,7 @@ const Home = () => (
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/business">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button rightIcon={<FaRegCaretSquareRight />} colorScheme="teal">
               Business Offers
             </Button>
           </NextLink>
@@ -168,7 +168,7 @@ const Home = () => (
 
         <Box align="center" my={4}>
           <NextLink href="/projects">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button rightIcon={<FaRegCaretSquareRight />} colorScheme="teal">
               Popular Projects
             </Button>
           </NextLink>
