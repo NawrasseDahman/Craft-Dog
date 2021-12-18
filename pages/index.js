@@ -16,8 +16,8 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoSnapchat, IoLogoDiscord, IoLogoFacebook } from 'react-icons/io5';
-import { IoMdAt, IoMdWifi } from 'react-icons/io';
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoDiscord, IoLogoFacebook } from 'react-icons/io5';
+import { IoMdAt } from 'react-icons/io';
 
 const Home = () => (
   <Layout>
