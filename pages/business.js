@@ -14,8 +14,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
-import { IoLogoTwitter, IoMdAt, IoLogoGithub, IoLogoDiscord } from "react-icons/io5";
-import { IoMdAt } from 'react-icons/io';
+import { IoLogoTwitter, IoMdAt, IoLogoGithub, IoLogoDiscord, IoAtCircleSharp } from "react-icons/io5";
 
 const Business = () => (
   <Layout>
@@ -88,7 +87,7 @@ If You Have Any Questions Or Would Just Like To Say Hi,  You Can Dm Me On Any O
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={IoMdAt} />}
+                leftIcon={<Icon as={IoAtCircleSharp} />}
               >
                 @NawrasseDahman
               </Button>
