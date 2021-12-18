@@ -42,13 +42,9 @@ const Business = () => (
           Business Offers
         </Heading>
         <Paragraph>
-          I&apos;m Currently Doing Projects Under The Name Of Urban SASS. But If
-          You Would Like To Work With Me In The Future? Or If You&apos;re Offering 
-          A Deal
-          Or A Job? Don&apos;t Hesitate To Get In Touch, You Can Dm Me On Any Of
-          My Other Socials Below Or Send Me A Friend Request In Discord, I Also 
-          Share All My Open Source
-          Projects On Github. Have A Nice Day!
+          I&apos;m Currently Open To Freelance And Actively Looking For A Full-Time Job Opportunties, So If You Like What You&apos;ve Seen Please Don&apos;t Hesitate To Get In Touch! 
+
+If You Have Any Questions Or Would Just Like To Say Hi,  You Can Dm Me On Any Of My Socials Below Or Send Me A Friend Request In Discord, I&apos;ll Delighted To Get Back To You As Soon As Possible.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/images/resume.pdf">
