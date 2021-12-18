@@ -47,7 +47,7 @@ const Business = () => (
 If You Have Any Questions Or Would Just Like To Say Hi,  You Can Dm Me On Any Of My Socials Below Or Send Me A Friend Request In Discord, I&apos;ll Delighted To Get Back To You As Soon As Possible.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/images/resume.pdf">
+          <NextLink href="/images/cv.pdf">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Download My Resume
             </Button>
