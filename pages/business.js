@@ -10,7 +10,7 @@ import {
   Icon,
   useColorModeValue
 } from "@chakra-ui/react";
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
@@ -49,7 +49,7 @@ If You Have Any Questions Or Would Just Like To Say Hi,  You Can Dm Me On Any O
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/images/cv.pdf">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button rightIcon={<FaRegCaretSquareRight />} colorScheme="teal">
               Download My Resume
             </Button>
           </NextLink>
