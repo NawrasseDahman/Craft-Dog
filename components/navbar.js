@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoIosMusicalNotes, IoIosListBox } from 'react-icons/io'
+import { IoIosMusicalNotes, IoIosListBox, IoIosBriefcase } from 'react-icons/io'
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -71,7 +71,16 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/business" path={path}>
+          <LinkItem  
+            _target="_blank"
+            href="/business" 
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoIosBriefcase />
             Business
           </LinkItem>
           <LinkItem 
