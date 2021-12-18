@@ -1,8 +1,7 @@
 import {
   Container,
   Heading,
-  SimpleGrid,
-  Divider
+  SimpleGrid
 } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
@@ -71,7 +70,7 @@ const Projects = () => (
         </SimpleGrid>
       </Section>
 
-      <Section delay={0.5}>
+      <Section delay={0.7}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Superstar DJ For Your Every Mood"
@@ -86,13 +85,13 @@ const Projects = () => (
         </SimpleGrid>
       </Section>
 
-       <Section delay={0.4} />
-        <Divider my={6} />
+       
+        
          <Heading as="h3" fontSize={20} mb={4}>
           Old Projects
          </Heading>
 
-        <Section delay={0.5} />
+       <Section delay={0.9}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Discord Stage Room"
@@ -105,9 +104,10 @@ const Projects = () => (
             href="https://matrixrain.vercel.app"
           />
         </SimpleGrid>
-      <Section />
-    <Container />
-  <Layout />
+      </Section>
+
+    </Container>
+  </Layout>
 );
 
 export default Projects;
