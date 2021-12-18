@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { GrDatabase, GrArticle, GrCodepen, GrSpotify } from "react-icons/gr";
+import { FaCodepen, FaSpotify, FaBusinessTime, FaBuffer } from 'react-icons/fa';
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -80,7 +80,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <GrArticle />
+            <FaBusinessTime />
             Business
           </LinkItem>
           <LinkItem 
@@ -92,7 +92,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <GrDatabase />
+            <FaBuffer />
             Projects
           </LinkItem>
           <LinkItem
@@ -104,7 +104,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <GrCodepen />
+            <FaCodepen />
             Codepen
           </LinkItem>
           <LinkItem
@@ -116,7 +116,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <GrSpotify />
+            <FaSpotify />
             Spotify
           </LinkItem>
           </Stack>
