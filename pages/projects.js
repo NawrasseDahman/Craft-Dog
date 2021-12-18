@@ -20,8 +20,8 @@ import thumbdiscordstage from "../public/images/contents/discordstage.png";
 import thumbmatrixrain from "../public/images/contents/matrixrain.png";
 
 const Projects = () => (
-  <Layout title="Projects" />
-    <Container />
+  <Layout title="Projects">
+    <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Popular Projects
       </Heading>
@@ -105,9 +105,9 @@ const Projects = () => (
             href="https://matrixrain.vercel.app"
           />
         </SimpleGrid>
-      </Section>
-    </Container>
-  </Layout>
+      <Section />
+    <Container />
+  <Layout />
 );
 
 export default Projects;
