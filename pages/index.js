@@ -16,7 +16,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoDiscord, IoLogoFacebook } from 'react-icons/io5';
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook } from 'react-icons/io5';
 import { IoMdAt } from 'react-icons/io';
 
 const Home = () => (
@@ -160,15 +160,6 @@ const Home = () => (
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoMdAt} />}
-              >
-                @NawrasseDahman
-              </Button>
-            </Link>
-            <Link href="https://discord.com/users/878309088126197860" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoDiscord} />}
               >
                 @NawrasseDahman
               </Button>
