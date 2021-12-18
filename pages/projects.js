@@ -20,7 +20,7 @@ import thumbdiscordstage from "../public/images/contents/discordstage.png";
 import thumbmatrixrain from "../public/images/contents/matrixrain.png";
 
 const Projects = () => (
-  <Layout title="Projects">
+  <Layout title="Projects" />
     <Container />
       <Heading as="h3" fontSize={20} mb={4}>
         Popular Projects
