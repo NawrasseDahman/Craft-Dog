@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoMdWifi, IoIosListBox, IoIosBusiness, IoLogoCodepen } from 'react-icons/io'
+import { GrBundle, GrArticle, GrCodepen, GrSpotify } from "react-icons/gr";
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -80,7 +80,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoIosBusiness />
+            <GrArticle />
             Business
           </LinkItem>
           <LinkItem 
@@ -92,7 +92,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoIosListBox />
+            <GrBundle />
             Projects
           </LinkItem>
           <LinkItem
@@ -104,7 +104,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoLogoCodepen />
+            <GrCodepen />
             Codepen
           </LinkItem>
           <LinkItem
@@ -116,7 +116,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoMdWifi />
+            <GrSpotify />
             Spotify
           </LinkItem>
           </Stack>
