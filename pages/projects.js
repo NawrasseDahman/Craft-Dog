@@ -17,6 +17,8 @@ import thumbthemechanger from "../public/images/contents/themechanger.png";
 import thumbsuperstardj from "../public/images/contents/superstardj.png";
 import thumbdiscordstage from "../public/images/contents/discordstage.png";
 import thumbmatrixrain from "../public/images/contents/matrixrain.png";
+import thumbminesweeper from "../public/images/contents/minesweeper.png";
+import thumbclockwise from "../public/images/contents/clockwise.png";
 
 const Projects = () => (
   <Layout title="Projects">
@@ -84,9 +86,7 @@ const Projects = () => (
           />
         </SimpleGrid>
       </Section>
-
-       
-        
+ 
          <Heading as="h3" fontSize={20} mb={4}>
           Old Projects
          </Heading>
@@ -106,6 +106,20 @@ const Projects = () => (
         </SimpleGrid>
       </Section>
 
+        <Section delay={0.9}>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            title="A Recreation Of Minesweeper"
+            thumbnail={thumbminesweeper}
+            href="https://yourminesweeper.vercel.app"
+          />
+          <GridItem
+            title="A Responsive Analog Clock UI Design"
+            thumbnail={thumbclockwise}
+            href="https://clocking.vercel.app"
+          />
+        </SimpleGrid>
+      </Section>
     </Container>
   </Layout>
 );
