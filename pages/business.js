@@ -14,7 +14,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoDiscord } from "react-icons/io5";
+import { IoLogoTwitter, IoMdAt, IoLogoGithub, IoLogoDiscord } from "react-icons/io5";
 import { IoMdAt } from 'react-icons/io';
 
 const Business = () => (
