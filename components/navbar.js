@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { GrBundle, GrArticle, GrCodepen, GrSpotify } from "react-icons/gr";
+import { GrDatabase, GrArticle, GrCodepen, GrSpotify } from "react-icons/gr";
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -92,7 +92,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <GrBundle />
+            <GrDatabase />
             Projects
           </LinkItem>
           <LinkItem
@@ -142,6 +142,12 @@ const Navbar = props => {
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
+                <MenuItem
+                  as={Link}
+                  href="https://codepen.io/nawrassedahman"
+                >
+                  Codepen
+                </MenuItem>
                 <MenuItem
                   as={Link}
                   href="https://open.spotify.com/user/4pevqlgntbtzf7quj0q307245?si=i38Ih3MgQTuypyjtO7cH6w&utm_source=copy-link"
