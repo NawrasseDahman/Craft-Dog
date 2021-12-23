@@ -26,7 +26,7 @@ const Business = () => (
         textAlign="center"
         bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
       >
-        Hello, I&apos;m A Full-Stack Developer Who&apos;s A Movie Junkie!
+        Hello, I&apos;m A Full-Stack Developer Who Is A Movie Junkie!
       </Box>
 
       <Box display={{ md: "flex" }}>
