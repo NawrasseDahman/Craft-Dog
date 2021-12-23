@@ -15,7 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { FaSnapchat, FaInstagram, FaGithub, FaFacebook } from 'react-icons/fa';
+import { FaSnapchatSquare, FaInstagramSquare, FaGithubSquare, FaFacebookSquare } from 'react-icons/fa';
 import { FaRegCaretSquareRight } from "react-icons/fa";
 
 const Home = () => (
@@ -113,7 +113,7 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={FaGithub} />}
+                leftIcon={<Icon as={FaGithubSquare} />}
               >
                 @NawrasseDahman
               </Button>
@@ -124,7 +124,7 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={FaSnapchat} />}
+                leftIcon={<Icon as={FaSnapchatSquare} />}
               >
                 @NawrasseDahman
               </Button>
@@ -135,7 +135,7 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={FaInstagram} />}
+                leftIcon={<Icon as={FaInstagramSquare} />}
               >
                 @NawrasseDahman
               </Button>
@@ -146,7 +146,7 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={FaFacebook} />}
+                leftIcon={<Icon as={FaFacebookSquare} />}
               >
                 @NawrasseDahman
               </Button>
