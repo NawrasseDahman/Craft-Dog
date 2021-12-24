@@ -58,14 +58,14 @@ const Projects = () => (
         </SimpleGrid>
       </Section>
 
-      <Section delay={0.9} />
+      <Section delay={0.5} />
         <Divider my={6} />
           
         <Heading as="h3" fontSize={20} mb={4}>
           Collaborations
          </Heading>
 
-      <Section delay={0.5}>
+      <Section delay={0.7}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Statistics Website For CoronaVirus"
@@ -80,7 +80,7 @@ const Projects = () => (
         </SimpleGrid>
       </Section>
 
-      <Section delay={0.7}>
+      <Section delay={0.9}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Superstar DJ For Your Every Mood"
@@ -95,14 +95,14 @@ const Projects = () => (
         </SimpleGrid>
       </Section>
  
-      <Section delay={0.9} />
+      <Section delay={0.11} />
         <Divider my={6} />
 
          <Heading as="h3" fontSize={20} mb={4}>
           Old Projects
          </Heading>
 
-       <Section delay={0.11}>
+       <Section delay={0.13}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Discord Stage Room"
@@ -117,7 +117,7 @@ const Projects = () => (
         </SimpleGrid>
       </Section>
 
-        <Section delay={0.13}>
+        <Section delay={0.15}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="A Recreation Of Minesweeper"
