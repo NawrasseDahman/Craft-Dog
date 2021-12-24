@@ -73,6 +73,9 @@ const Projects = () => (
       </Section>
 
       <Section delay={0.7}>
+        <Divider my={6} />
+
+      <Section delay={0.7}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Superstar DJ For Your Every Mood"
