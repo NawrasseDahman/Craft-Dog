@@ -58,6 +58,13 @@ const Projects = () => (
         </SimpleGrid>
       </Section>
 
+      <Section delay={0.9} />
+        <Divider my={6} />
+          
+        <Heading as="h3" fontSize={20} mb={4}>
+          Collaborations
+         </Heading>
+
       <Section delay={0.5}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
