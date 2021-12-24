@@ -73,7 +73,7 @@ const Projects = () => (
         </SimpleGrid>
       </Section>
 
-      <Section delay={0.7}>
+      <Section delay={0.7} />
         <Divider my={6} />
 
       <Section delay={0.7}>
