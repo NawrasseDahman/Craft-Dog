@@ -1,7 +1,8 @@
 import {
   Container,
   Heading,
-  SimpleGrid
+  SimpleGrid,
+  Divider
 } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
