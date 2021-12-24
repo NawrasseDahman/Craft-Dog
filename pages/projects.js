@@ -9,7 +9,7 @@ import { GridItem } from "../components/grid-item";
 
 import thumbcountdown from "../public/images/contents/countdown.png";
 import thumbdadjokes from "../public/images/contents/dadjokes.png";
-import thumbnotes from "../public/images/contents/notingapp.png";
+import thumbsearch from "../public/images/contents/searchedme.png";
 import thumbhouse from "../public/images/contents/house3d.png";
 import thumbcovid from "../public/images/contents/statsforcovid.png";
 import thumbinnocent from "../public/images/contents/innocent.png";
@@ -45,9 +45,9 @@ const Projects = () => (
       <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="A Notes App That Keeps Your Data Safe"
-            thumbnail={thumbnotes}
-            href="https://notednow.vercel.app"
+            title="A Search Engine Like Google That Works With Wikipedia API"
+            thumbnail={thumbsearch}
+            href="https://searchedme.vercel.app"
           />
           <GridItem
             title="A 3D Prespective Of House"
