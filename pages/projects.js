@@ -73,9 +73,6 @@ const Projects = () => (
         </SimpleGrid>
       </Section>
 
-      <Section delay={0.7} />
-        <Divider my={6} />
-
       <Section delay={0.7}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
@@ -91,11 +88,14 @@ const Projects = () => (
         </SimpleGrid>
       </Section>
  
+      <Section delay={0.9} />
+        <Divider my={6} />
+
          <Heading as="h3" fontSize={20} mb={4}>
           Old Projects
          </Heading>
 
-       <Section delay={0.9}>
+       <Section delay={0.11}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Discord Stage Room"
@@ -110,7 +110,7 @@ const Projects = () => (
         </SimpleGrid>
       </Section>
 
-        <Section delay={0.11}>
+        <Section delay={0.13}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="A Recreation Of Minesweeper"
