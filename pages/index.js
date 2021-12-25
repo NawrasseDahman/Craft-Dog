@@ -108,7 +108,7 @@ const Home = () => (
           What I Love
         </Heading>
         <Paragraph>
-         I Love Watching Movies & Tv Shows, One Of My Favorite All Time Tv Shows Are{' '}
+         I Love Watching Movies & Tv Shows, One Of My Favorite Tv Shows Are{' '}
           <Link href="https://www.google.com/search?q=the+vampire+diaries&client=ms-android-samsung-ga-rev1&sxsrf=AOaemvLtV2m0hnsWryLefgoy9TxhhDROfQ%3A1640416934360&ei=psbGYfSzFcqMa4m2i_gK&oq=the+vampire+diaries&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAgjECcyBAgjECcyBAgjECcyBQguEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCCMQsAMQJzoHCAAQRxCwAzoHCAAQsAMQQzoKCAAQsAMQyQMQQzoKCC4QyAMQsAMQQzoQCC4QxwEQ0QMQyAMQsAMQQzoKCAAQgAQQhwIQFEoFCDgSATFKBAhBGABQjQZY9Q5gyhFoAXABeACAAaoBiAHiCJIBAzAuOJgBAKABAcgBEcABAQ&sclient=mobile-gws-wiz-serp" target="_blank">
           The Vampire Diaries
           </Link> Then There&apos;s{' '} 
