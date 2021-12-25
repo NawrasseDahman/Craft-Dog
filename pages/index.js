@@ -103,6 +103,17 @@ const Home = () => (
         </BioSection>
       </Section>
 
+      <Section delay={0.1}>
+        <Heading as="h3" variant="section-title">
+          What I Love
+        </Heading>
+        <Paragraph>
+         I Love Watching Movies & Tv Shows, One Of My Favorite All Time Tv Shows Are
+         The Vampire Diaries Then There&apos;s The Originals And Legacies.
+         I Also Enjoy Coding, Listening To Music, Playing Chess, Movie Nights, Holidays And More....
+        </Paragraph>
+      </section>
+
       <Section delay={0.4}>
         <Heading as="h3" variant="section-title">
           Social Media
