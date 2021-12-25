@@ -112,14 +112,13 @@ const Home = () => (
          The{' '}
           <Link href="https://www.google.com/search?q=the+vampire+diaries&client=ms-android-samsung-ga-rev1&sxsrf=AOaemvLtV2m0hnsWryLefgoy9TxhhDROfQ%3A1640416934360&ei=psbGYfSzFcqMa4m2i_gK&oq=the+vampire+diaries&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAgjECcyBAgjECcyBAgjECcyBQguEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCCMQsAMQJzoHCAAQRxCwAzoHCAAQsAMQQzoKCAAQsAMQyQMQQzoKCC4QyAMQsAMQQzoQCC4QxwEQ0QMQyAMQsAMQQzoKCAAQgAQQhwIQFEoFCDgSATFKBAhBGABQjQZY9Q5gyhFoAXABeACAAaoBiAHiCJIBAzAuOJgBAKABAcgBEcABAQ&sclient=mobile-gws-wiz-serp" target="_blank">
             The Vampire Diaries
-          </Link>Then There&apos;s{' '} 
+          </Link> Then There&apos;s{' '} 
           <Link href="https://www.google.com/search?q=the+originals&client=ms-android-samsung-ga-rev1&sxsrf=AOaemvLMnht4I75k4gS37Ujrtaw3In2aHA%3A1640416991635&ei=38bGYc2jJojga46OgrAO&oq=the+originals&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAguEEMyBAgAEEMyBAgAEEMyBAgAEEMyBAgAEEMyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgjELADECc6BwgAEEcQsAM6CgguEMgDELADEEM6BAgAEAo6BAguEAo6BAgjECc6CggAEIAEEIcCEBQ6BQguEIAEOgsILhCABBDHARDRA0oFCDgSATFKBAhBGABQzgRY5TdghjtoAnABeAGAAdUBiAHTHZIBBjAuMjEuMpgBAKABAcgBEMABAQ&sclient=mobile-gws-wiz-serp" target="_blank">
           The Originals 
-          </Link>And{' '} 
+          </Link> And{' '} 
           <Link href="https://www.google.com/search?q=Legacies&client=ms-android-samsung-ga-rev1&sxsrf=AOaemvIQULWYzWah6ax4KwjE98mRSRuIZA%3A1640417126862&ei=ZsfGYdb6M4nBlwS04YGACg&oq=Legacies&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAguECcyBAgjECcyBAgjECcyBAgAEEMyBAgAEEMyBAgAEEMyBAgAEEMyBAgAEENKBAhBGABQAFgAYNUHaABwAXgAgAGxBIgBsQSSAQM1LTGYAQDAAQE&sclient=mobile-gws-wiz-serp" target="_blank">
-          Legacies.
-          </Link>
-         I Also Enjoy Coding, Listening To Music, Playing Chess, Movie Nights, Holidays And More....
+          Legacies. 
+          </Link> I Also Enjoy Coding, Listening To Music, Playing Chess, Movie Nights, Holidays, Family Gatherings, Family Games.
         </Paragraph>
 
       <Section delay={0.4}>
