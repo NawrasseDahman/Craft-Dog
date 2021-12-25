@@ -103,7 +103,7 @@ const Home = () => (
         </BioSection>
       </Section>
 
-      <Section delay={0.1}>
+      <Section delay={0.3} />
         <Heading as="h3" variant="section-title">
           What I Love
         </Heading>
@@ -112,7 +112,6 @@ const Home = () => (
          The Vampire Diaries Then There&apos;s The Originals And Legacies.
          I Also Enjoy Coding, Listening To Music, Playing Chess, Movie Nights, Holidays And More....
         </Paragraph>
-      </section>
 
       <Section delay={0.4}>
         <Heading as="h3" variant="section-title">
