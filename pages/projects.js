@@ -9,7 +9,7 @@ import Section from "../components/section";
 import { GridItem } from "../components/grid-item";
 
 import thumbcountdown from "../public/images/contents/countdown.png";
-import thumbdadjokes from "../public/images/contents/dadjokes.png";
+import thumbterminal from "../public/images/contents/terminal.png";
 import thumbsearch from "../public/images/contents/searchedme.png";
 import thumbhouse from "../public/images/contents/house3d.png";
 import thumbcovid from "../public/images/contents/statsforcovid.png";
@@ -36,9 +36,9 @@ const Projects = () => (
             href="https://countdownmovie.vercel.app"
           />
           <GridItem
-            title="Dad Jokes Website"
-            thumbnail={thumbdadjokes}
-            href="https://dadjoke.vercel.app"
+            title="Terminal Portfolio"
+            thumbnail={thumbterminal}
+            href="https://terminalnawrasse.vercel.app"
           />
         </SimpleGrid>
       </Section>
