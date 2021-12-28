@@ -10,6 +10,7 @@ import {
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { GridItem } from "../components/grid-item";
+import { FaRegCaretSquareRight } from "react-icons/fa";
 
 import thumbcountdown from "../public/images/contents/countdown.png";
 import thumbterminal from "../public/images/contents/terminal.png";
@@ -23,7 +24,6 @@ import thumbdiscordstage from "../public/images/contents/discordstage.png";
 import thumbmatrixrain from "../public/images/contents/matrixrain.png";
 import thumbminesweeper from "../public/images/contents/minesweeper.png";
 import thumbclockwise from "../public/images/contents/clockwise.png";
-import { FaRegCaretSquareRight } from "react-icons/fa";
 
 const Projects = () => (
   <Layout title="Projects">
