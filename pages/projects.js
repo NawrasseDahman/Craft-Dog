@@ -2,7 +2,10 @@ import {
   Container,
   Heading,
   SimpleGrid,
-  Divider
+  Divider,
+  Box,
+  Link,
+  Button
 } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
@@ -20,6 +23,7 @@ import thumbdiscordstage from "../public/images/contents/discordstage.png";
 import thumbmatrixrain from "../public/images/contents/matrixrain.png";
 import thumbminesweeper from "../public/images/contents/minesweeper.png";
 import thumbclockwise from "../public/images/contents/clockwise.png";
+import { FaRegCaretSquareRight } from "react-icons/fa";
 
 const Projects = () => (
   <Layout title="Projects">
@@ -131,6 +135,14 @@ const Projects = () => (
           />
         </SimpleGrid>
       </Section>
+
+        <Box align="center" my={4}>
+          <Link href="https://github.com/NawrasseDahman?tab=repositories" target="_blank">
+            <Button rightIcon={<FaRegCaretSquareRight />} colorScheme="teal">
+              Check Out More Projects
+            </Button>
+          </Link>
+        </Box>
     </Container>
   </Layout>
 );
