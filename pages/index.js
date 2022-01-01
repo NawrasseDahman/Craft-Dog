@@ -11,7 +11,6 @@ import {
   Icon,
   useColorModeValue
 } from '@chakra-ui/react'
-import { Tooltip } from 'react-tippy';
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -63,11 +62,8 @@ const Home = () => (
           Who Am I
         </Heading>
         <Paragraph>
-          Nawrasse.{' '}
-        <Tooltip arrow title={'17th July 2004'}>
-          {age}
-        </Tooltip>{' '}
-          Years Old Is A Full-Stack Developer & Designer Based In Tangier With Passion For 
+          Nawrasse (17 Years Old)
+          Is A Full-Stack Developer & Designer Based In Tangier With Passion For 
           Building Digital Services / Stuff He Wants Or Likes Or Even Needs. He Knows A Lot Of Programming
           Languages, Which Makes Him An Expert At Doing His Thing.
           When Not Online, He Loves Hanging Out With His Family & Animals. Currently, He&apos;s Focusing On His
