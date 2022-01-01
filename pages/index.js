@@ -18,8 +18,7 @@ import Section from '../components/section'
 import { FaSnapchatGhost, FaInstagram, FaGithub, FaFacebook } from 'react-icons/fa';
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import { Tooltip } from 'react-tippy';
-
-
+import '../lib/tippy.css'
 
 
 const Home = () => (
