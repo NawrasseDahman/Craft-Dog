@@ -19,8 +19,6 @@ import Section from '../components/section'
 import { FaSnapchatGhost, FaInstagram, FaGithub, FaFacebook } from 'react-icons/fa';
 import { FaRegCaretSquareRight } from "react-icons/fa";
 
-const BIRTH = new Date('2004-7-17T5:00:00Z');
-
 const Home = () => (
   <Layout>
     <Container>
