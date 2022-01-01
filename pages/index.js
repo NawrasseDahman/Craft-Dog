@@ -19,10 +19,11 @@ import Section from '../components/section'
 import { FaSnapchatGhost, FaInstagram, FaGithub, FaFacebook } from 'react-icons/fa';
 import { FaRegCaretSquareRight } from "react-icons/fa";
 
-const Home = () => (
 const BIRTH = new Date('2004-7-17T5:00:00Z');
 const YEAR_MILLIS = 31556952000; 
-const age = useMemo(() => Math.floor((Date.now() - BIRTH.getTime()) / YEAR_MILLIS), []);
+
+const Home = () => (
+  const age = useMemo(() => Math.floor((Date.now() - BIRTH.getTime()) / YEAR_MILLIS), []);
   <Layout>
     <Container>
       <Box
