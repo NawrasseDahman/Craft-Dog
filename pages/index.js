@@ -11,6 +11,7 @@ import {
   Icon,
   useColorModeValue
 } from '@chakra-ui/react'
+import { Tooltip } from 'react-tippy';
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -19,6 +20,9 @@ import { FaSnapchatGhost, FaInstagram, FaGithub, FaFacebook } from 'react-icons/
 import { FaRegCaretSquareRight } from "react-icons/fa";
 
 const Home = () => (
+const BIRTH = new Date('2004-7-17T5:00:00Z');
+const YEAR_MILLIS = 31556952000; 
+const age = useMemo(() => Math.floor((Date.now() - BIRTH.getTime()) / YEAR_MILLIS), []);
   <Layout>
     <Container>
       <Box
@@ -62,7 +66,11 @@ const Home = () => (
           Who Am I
         </Heading>
         <Paragraph>
-          Nawrasse Is A Full-Stack Developer & Designer Based In Tangier With Passion For 
+          Nawrasse.{' '}
+        <Tooltip arrow title={'17th July 2004'}>
+          {age}
+        </Tooltip>{' '}
+          Years Old Is A Full-Stack Developer & Designer Based In Tangier With Passion For 
           Building Digital Services / Stuff He Wants Or Likes Or Even Needs. He Knows A Lot Of Programming
           Languages, Which Makes Him An Expert At Doing His Thing.
           When Not Online, He Loves Hanging Out With His Family & Animals. Currently, He&apos;s Focusing On His
