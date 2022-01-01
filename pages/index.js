@@ -18,8 +18,13 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { FaSnapchatGhost, FaInstagram, FaGithub, FaFacebook } from 'react-icons/fa';
 import { FaRegCaretSquareRight } from "react-icons/fa";
+import { Tooltip } from 'react-tippy';
+
+const BIRTH = new Date('2001-12-28T10:15:00Z');
+const YEAR_MILLIS = 31556952000;
 
 const Home = () => (
+  const age = useMemo(() => Math.floor((Date.now() - BIRTH.getTime()) / YEAR_MILLIS), []); 
   <Layout>
     <Container>
       <Box
