@@ -12,6 +12,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import Paragraph from '../components/paragraph'
+import 'react-tippy/dist/tippy.css'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
