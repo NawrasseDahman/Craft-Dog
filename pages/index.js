@@ -24,7 +24,7 @@ const BIRTH = new Date('2001-12-28T10:15:00Z');
 const YEAR_MILLIS = 31556952000;
 
 const Home = () => (
-  const age = useMemo(() => Math.floor((Date.now() - BIRTH.getTime()) / YEAR_MILLIS), []); 
+  const Age = useMemo(() => Math.floor((Date.now() - BIRTH.getTime()) / YEAR_MILLIS), []); 
   <Layout>
     <Container>
       <Box
