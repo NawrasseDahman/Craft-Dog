@@ -33,7 +33,9 @@ import {
   SiReact,
   SiPug,
   SiTailwindcss,
-  SiFlask
+  SiFlask,
+  SiNpm,
+  SiStyledcomponents
 } from "react-icons/si";
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
@@ -176,6 +178,14 @@ const Business = () => (
             <ListItem>
               <ListIcon as={SiFlask} />
               Flask
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiStyledcomponents} />
+              Styled-Components
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiNpm} />
+              NPM
             </ListItem>
           </List>
         </ul>
