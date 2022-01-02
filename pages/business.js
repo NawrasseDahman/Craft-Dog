@@ -89,6 +89,7 @@ const Business = () => (
         <Heading as="h3" variant="section-title">
           Technologies
         </Heading>
+      <Paragraph>
         <ul>
           <List spacing={3}>
             <ListItem> <ListIcon as={SiTypescript} /> TypeScript </ListItem>
@@ -116,6 +117,7 @@ const Business = () => (
             <ListItem> <ListIcon as={SiStyledcomponents} /> Styled-Components </ListItem>
             <ListItem> <ListIcon as={SiNpm} /> NPM </ListItem>
           </List>
+          </Paragraph>
         </ul>
       </Section>
 
