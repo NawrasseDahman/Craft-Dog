@@ -117,8 +117,8 @@ const Business = () => (
             <ListItem> <ListIcon as={SiStyledcomponents} /> Styled-Components </ListItem>
             <ListItem> <ListIcon as={SiNpm} /> NPM </ListItem>
           </List>
-          </Paragraph>
         </ul>
+      </Paragraph>
       </Section>
 
       <Section delay={0.5}>
