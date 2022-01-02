@@ -5,7 +5,7 @@ import {
   Heading,
   Box,
   Button,
-  HStack,
+  VStack,
   List,
   ListItem,
   Icon,
@@ -68,9 +68,9 @@ const Business = () => (
         <Heading as="h3" variant="section-title">
           Technologies
         </Heading>
-          <HStack> <Icon as={SiTypescript} w={8} h={10} /> </HStack>
-          <HStack> <Icon as={SiJavascript} w={8} h={10} /> </HStack>
-          <HStack> <Icon as={SiMarkdown} w={8} h={10} /> </HStack>
+          <VStack> <Icon as={SiTypescript} w={8} h={10} /> </VStack>
+          <VStack> <Icon as={SiJavascript} w={8} h={10} /> </VStack>
+          <VStack> <Icon as={SiMarkdown} w={8} h={10} /> </VStack>
       </Section>
 
       <Section delay={0.5}>
