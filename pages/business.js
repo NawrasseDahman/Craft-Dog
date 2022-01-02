@@ -70,17 +70,15 @@ const Business = () => (
         </Heading>
           <HStack>
           <Center>
-          <List spacing={4}>
-           <ListItem>
-           <ListIcon as={SiJavascript} color='yellow' />
-            Javascript
-           </ListItem>
-          </Center>
-          <Center>
-           <ListItem>
-           <ListIcon as={SiTypescript} color='blue'/>
+          <List spacing={3}>
+          <ListItem>
+          <ListIcon as={SiJavascript} color='Yellow' />
+           Javascript
+          </ListItem>          
+          <ListItem>
+          <ListIcon as={SiTypescript} color='Blue' />
            Typescript
-           </ListItem>
+          </ListItem>
           </List>
           </Center>
           </HStack>
