@@ -8,7 +8,7 @@ import {
   Icon,
   useColorModeValue
 } from "@chakra-ui/react";
-import { List, ListContainer, ListItem, ListParagraph } from './TechnologiesStyles';
+import { List, ListItem, ListIcon } from '../components/TechnologiesStyles';
 import {
   SiTypescript,
   SiJavascript,
