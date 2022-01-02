@@ -14,7 +14,26 @@ import {
 import {
   SiTypescript,
   SiJavascript,
-  SiMarkdown
+  SiMarkdown,
+  SiChakraui,
+  SiNodedotjs,
+  SiExpress,
+  SiElectron,
+  SiVuedotjs,
+  SiThreedotjs,
+  SiNextdotjs,
+  SiHtml5,
+  SiCss3,
+  SiSass,
+  SiPython,
+  SiGit,
+  SiGo,
+  SiRuby,
+  SiJava,
+  SiReact,
+  SiPug,
+  SiTailwindcss,
+  SiFlask
 } from "react-icons/si";
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
@@ -81,7 +100,83 @@ const Business = () => (
             <ListItem>
               <ListIcon as={SiMarkdown} />
               Markdown
-            </ListItem> 
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiChakraui} />
+              Chakra-UI
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiNodedotjs} />
+              Node.Js
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiExpress} />
+              Express.Js
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiElectron} />
+              Electron.Js
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiVuedotjs} />
+              Vue.Js
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiThreedotjs} />
+              Three.Js
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiNextdotjs} />
+              Next.Js
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiHtml5} />
+              Html
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiCss3} />
+              CSS
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiSass} />
+              SASS
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiPython} />
+              Python
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiGit} />
+              Git
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiJava} />
+              Java
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiRuby} />
+              Ruby
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiGo} />
+              Golang
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiReact} />
+              React
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiPug} />
+              Pug
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiTailwindcss} />
+              TailWindCss
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiFlask} />
+              Flask
+            </ListItem>
           </List>
         </ul>
       </Section>
