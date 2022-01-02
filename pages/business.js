@@ -5,16 +5,16 @@ import {
   Heading,
   Box,
   Button,
-  VStack,
+  HStack,
   List,
   ListItem,
   Icon,
+  Center,
   useColorModeValue
 } from "@chakra-ui/react";
 import {
   SiTypescript,
-  SiJavascript,
-  SiMarkdown
+  SiJavascript
 } from "react-icons/si";
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
@@ -70,12 +70,10 @@ const Business = () => (
         </Heading>
           <HStack>
           <Center w='40px' h='40px' bg='tomato' color='white'>
-          <PhoneIcon />
+          <SiJavascript />
           </Center>
           <Center w='40px' h='40px' bg='tomato' color='white'>
-          <Box as='span' fontWeight='bold' fontSize='lg'>
-            1
-          </Box>
+          <SiTypescript />
           </Center>
           </HStack>
       </Section>
