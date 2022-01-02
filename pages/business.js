@@ -89,34 +89,7 @@ const Business = () => (
         <Heading as="h3" variant="section-title">
           Technologies
         </Heading>
-        <ul spacing={4} align='stretch'>
-          <List>
-            <ListItem> <ListIcon as={SiTypescript} /> TypeScript </ListItem>
-            <ListItem> <ListIcon as={SiJavascript} /> JavaScript </ListItem>
-            <ListItem> <ListIcon as={SiMarkdown} /> Markdown </ListItem>
-            <ListItem> <ListIcon as={SiChakraui} /> Chakra-UI </ListItem>
-            <ListItem> <ListIcon as={SiNodedotjs} /> Node.Js </ListItem>
-            <ListItem> <ListIcon as={SiExpress} /> Express.Js </ListItem>
-            <ListItem> <ListIcon as={SiElectron} /> Electron.Js </ListItem>
-            <ListItem> <ListIcon as={SiVuedotjs} /> Vue.Js </ListItem>
-            <ListItem> <ListIcon as={SiThreedotjs} /> Three.Js </ListItem>
-            <ListItem> <ListIcon as={SiNextdotjs} /> Next.Js </ListItem>
-            <ListItem> <ListIcon as={SiHtml5} /> Html </ListItem>
-            <ListItem> <ListIcon as={SiCss3} /> CSS </ListItem>
-            <ListItem> <ListIcon as={SiSass} /> SASS </ListItem>
-            <ListItem> <ListIcon as={SiPython} /> Python </ListItem>
-            <ListItem> <ListIcon as={SiGit} /> Git </ListItem>
-            <ListItem> <ListIcon as={SiJava} /> Java </ListItem>
-            <ListItem> <ListIcon as={SiRuby} /> Ruby </ListItem>
-            <ListItem> <ListIcon as={SiGo} /> Golang </ListItem>
-            <ListItem> <ListIcon as={SiReact} /> React </ListItem> 
-            <ListItem> <ListIcon as={SiPug} /> Pug </ListItem>
-            <ListItem> <ListIcon as={SiTailwindcss} /> TailWindCss </ListItem>
-            <ListItem> <ListIcon as={SiFlask} /> Flask </ListItem>
-            <ListItem> <ListIcon as={SiStyledcomponents} /> Styled-Components </ListItem>
-            <ListItem> <ListIcon as={SiNpm} /> NPM </ListItem>
-          </List>
-        </ul>
+            <HStack> <Icon as={SiTypescript} w={8} h={10} /> </HStack>
       </Section>
 
       <Section delay={0.5}>
