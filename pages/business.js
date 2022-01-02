@@ -5,37 +5,13 @@ import {
   Heading,
   Box,
   Button,
-  List,
-  ListIcon,
-  ListItem,
+  Stack,
+  StackProps,
   Icon,
   useColorModeValue
 } from "@chakra-ui/react";
 import {
   SiTypescript,
-  SiJavascript,
-  SiMarkdown,
-  SiChakraui,
-  SiNodedotjs,
-  SiExpress,
-  SiElectron,
-  SiVuedotjs,
-  SiThreedotjs,
-  SiNextdotjs,
-  SiHtml5,
-  SiCss3,
-  SiSass,
-  SiPython,
-  SiGit,
-  SiGo,
-  SiRuby,
-  SiJava,
-  SiReact,
-  SiPug,
-  SiTailwindcss,
-  SiFlask,
-  SiNpm,
-  SiStyledcomponents
 } from "react-icons/si";
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
