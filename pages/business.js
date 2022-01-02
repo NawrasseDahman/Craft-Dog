@@ -89,7 +89,7 @@ const Business = () => (
         <Heading as="h3" variant="section-title">
           Technologies
         </Heading>
-        <ul className="grid grid-cols-3 gap-4 sm:grid-cols-4">
+        <ul vertical-align="horizontal">
           <List spacing={3}>
             <ListItem> <ListIcon as={SiTypescript} /> TypeScript </ListItem>
             <ListItem> <ListIcon as={SiJavascript} /> JavaScript </ListItem>
