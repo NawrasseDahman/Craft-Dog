@@ -68,9 +68,16 @@ const Business = () => (
         <Heading as="h3" variant="section-title">
           Technologies
         </Heading>
-          <VStack> <Icon as={SiTypescript} w={8} h={10} /> </VStack>
-          <VStack> <Icon as={SiJavascript} w={8} h={10} /> </VStack>
-          <VStack> <Icon as={SiMarkdown} w={8} h={10} /> </VStack>
+          <HStack>
+          <Center w='40px' h='40px' bg='tomato' color='white'>
+          <PhoneIcon />
+          </Center>
+          <Center w='40px' h='40px' bg='tomato' color='white'>
+          <Box as='span' fontWeight='bold' fontSize='lg'>
+            1
+          </Box>
+          </Center>
+          </HStack>
       </Section>
 
       <Section delay={0.5}>
