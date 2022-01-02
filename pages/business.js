@@ -14,6 +14,7 @@ import {
 } from "@chakra-ui/react";
 import {
   SiJavascript,
+  SiTypescript,
   SiMarkdown,
   SiChakraui,
   SiNodedotjs,
