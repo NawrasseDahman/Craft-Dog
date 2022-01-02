@@ -8,7 +8,7 @@ import {
   Icon,
   useColorModeValue
 } from "@chakra-ui/react";
-import { List, ListItem, ListIcon } from '../components/TechnologiesStyles';
+import { List, ListItem, ListIcon } from '../components/technology';
 import {
   SiTypescript,
   SiJavascript,
@@ -87,7 +87,7 @@ const Business = () => (
         <Heading as="h3" variant="section-title">
           Technologies
         </Heading>
-        <ul vertical-align="horizontal">
+        <ul>
           <List spacing={3}>
             <ListItem> <ListIcon as={SiTypescript} /> TypeScript </ListItem>
             <ListItem> <ListIcon as={SiJavascript} /> JavaScript </ListItem>
