@@ -148,6 +148,9 @@ const Business = () => (
           <SiReact/>
           </Center>
           <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiElectron />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
           <SiFlask />
           </Center>
           <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
