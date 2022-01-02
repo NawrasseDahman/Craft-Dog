@@ -69,10 +69,10 @@ const Business = () => (
           Technologies
         </Heading>
           <HStack>
-          <Center w='40px' h='40px' bg='tomato' color='white'>
+          <Center w='100px' h='100px' color='white'>
           <SiJavascript />
           </Center>
-          <Center w='40px' h='40px' bg='tomato' color='white'>
+          <Center w='100px' h='100px' color='white'>
           <SiTypescript />
           </Center>
           </HStack>
