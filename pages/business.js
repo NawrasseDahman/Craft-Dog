@@ -11,26 +11,26 @@ import {
   useColorModeValue
 } from "@chakra-ui/react";
 import {
-	SiAmazonaws,
-	SiBabel,
-	SiDocker,
-	SiGit,
-	SiGithub,
-	SiGo,
-	SiJava,
-	SiNextdotjs as SiNextDotJs,
-	SiNodedotjs as SiNodeDotJs,
-	SiPostgresql,
-	SiReact,
-	SiRedis,
-	SiStyledcomponents as SiStyledComponents,
-	SiTailwindcss,
-	SiTwitter,
-	SiTypescript,
-	SiWebpack,
-	SiWebstorm,
-	SiMongodb,
-	SiYarn,
+  SiAmazonaws,
+  SiBabel,
+  SiDocker,
+  SiGit,
+  SiGithub,
+  SiGo,
+  SiJava,
+  SiNextdotjs as SiNextDotJs,
+  SiNodedotjs as SiNodeDotJs,
+  SiPostgresql,
+  SiReact,
+  SiRedis,
+  SiStyledcomponents as SiStyledComponents,
+  SiTailwindcss,
+  SiTwitter,
+  SiTypescript,
+  SiWebpack,
+  SiWebstorm,
+  SiMongodb,
+  SiYarn,
 } from 'react-icons/si';
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
@@ -102,7 +102,8 @@ If You Have Any Questions Or Would Just Like To Say Hi,  You Can Dm Me On Any O
 					<ListItem icon={SiGit} text="Git" />
 					<ListItem icon={SiStyledComponents} text="styled-components" />
 					<ListItem icon={SiMongodb} text="Mongo" />
-				</ul>    
+				</ul>   
+                        </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
