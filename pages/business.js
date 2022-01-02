@@ -13,8 +13,29 @@ import {
   useColorModeValue
 } from "@chakra-ui/react";
 import {
-  SiTypescript,
-  SiJavascript
+  SiJavascript,
+  SiMarkdown,
+  SiChakraui,
+  SiNodedotjs,
+  SiExpress,
+  SiElectron,
+  SiVuedotjs,
+  SiThreedotjs,
+  SiNextdotjs,
+  SiHtml5,
+  SiCss3,
+  SiSass,
+  SiPython,
+  SiGit,
+  SiGo,
+  SiRuby,
+  SiJava,
+  SiReact,
+  SiPug,
+  SiTailwindcss,
+  SiFlask,
+  SiNpm,
+  SiStyledcomponents
 } from "react-icons/si";
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
@@ -69,11 +90,74 @@ const Business = () => (
           Technologies
         </Heading>
           <HStack>
-          <Center w='100px' h='100px' color='white'>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
           <SiJavascript />
           </Center>
-          <Center w='100px' h='100px' color='white'>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
           <SiTypescript />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiChakraui />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiNodedotjs />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiThreedotjs />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiExpress />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiVuedotjs />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiNextdotjs />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiMarkdown />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiHtml5 />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiCss3 />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiPug />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiSass />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiGit />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiPython />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiJava />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiRuby />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiGo />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiReact/>
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiFlask />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiNpm />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiTailwindcss />
+          </Center>
+          <Center w='50px' h='50px' bg='#fcd5a2' color='white'>
+          <SiStyledcomponents />
           </Center>
           </HStack>
       </Section>
