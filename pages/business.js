@@ -5,10 +5,12 @@ import {
   Heading,
   Box,
   Button,
+  List,
+  ListIcon,
+  ListItem,
   Icon,
   useColorModeValue
 } from "@chakra-ui/react";
-import { List, ListItem, ListIcon } from '../components/technology';
 import {
   SiTypescript,
   SiJavascript,
