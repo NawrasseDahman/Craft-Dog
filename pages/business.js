@@ -13,6 +13,8 @@ import {
 } from "@chakra-ui/react";
 import {
   SiTypescript,
+  SiJavascript,
+  SiMarkdown
 } from "react-icons/si";
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
@@ -66,7 +68,9 @@ const Business = () => (
         <Heading as="h3" variant="section-title">
           Technologies
         </Heading>
-            <HStack> <Icon as={SiTypescript} w={8} h={10} /> </HStack>
+          <HStack> <Icon as={SiTypescript} w={8} h={10} /> </HStack>
+          <HStack> <Icon as={SiJavascript} w={8} h={10} /> </HStack>
+          <HStack> <Icon as={SiMarkdown} w={8} h={10} /> </HStack>
       </Section>
 
       <Section delay={0.5}>
