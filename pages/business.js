@@ -89,46 +89,13 @@ const Business = () => (
            </ListItem>
           </Center>
           <Center>
-          <Icon as={SiTypescript} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiChakraui} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiNodedotjs} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiVuedotjs} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiNextdotjs} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiHtml5} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiCss3} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiSass} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiPython} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiJava} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiReact} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiTailwindcss} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiStyledcomponents} w='40px' h='40px' />
+           <ListItem>
+           <ListIcon as={SiTypescript} color='blue'/>
+           Typescript
+           </ListItem>
+          </List>
           </Center>
           </HStack>
-          </List>
       </Section>
 
       <Section delay={0.5}>
