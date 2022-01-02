@@ -65,26 +65,6 @@ const Business = () => (
         </Box>
       </Section>
 
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          Technologies
-        </Heading>
-          <HStack>
-          <Center>
-          <List spacing={3}>
-          <ListItem>
-          <ListIcon as={SiJavascript} color='Yellow' />
-           Javascript
-          </ListItem>          
-          <ListItem>
-          <ListIcon as={SiTypescript} color='Blue' />
-           Typescript
-          </ListItem>
-          </List>
-          </Center>
-          </HStack>
-      </Section>
-
       <Section delay={0.5}>
         <Heading as="h3" variant="section-title">
           Social Media
