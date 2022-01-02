@@ -13,7 +13,8 @@ import {
 } from "@chakra-ui/react";
 import {
   SiTypescript,
-  SiYarn
+  SiJavascript,
+  SiMarkdown
 } from "react-icons/si";
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
@@ -67,17 +68,20 @@ const Business = () => (
         <Heading as="h3" variant="section-title">
           Technologies
         </Heading>
-        <ul>
+        <ul className="grid grid-cols-3 gap-4 sm:grid-cols-4">
           <List spacing={3}>
             <ListItem>
-              <ListIcon as={SiTypescript} color='green.500' />
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+              <ListIcon as={SiTypescript} />
+              TypeScript
             </ListItem>
             <ListItem>
-              <ListIcon as={SiYarn} color='green.500' />
-    Assumenda, quia temporibus eveniet a libero incidunt suscipit
+              <ListIcon as={SiJavascript} />
+              JavaScript
             </ListItem>
-           
+            <ListItem>
+              <ListIcon as={SiMarkdown} />
+              Markdown
+            </ListItem> 
           </List>
         </ul>
       </Section>
