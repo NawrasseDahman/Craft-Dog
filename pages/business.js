@@ -10,6 +10,28 @@ import {
   Icon,
   useColorModeValue
 } from "@chakra-ui/react";
+import {
+	SiAmazonaws,
+	SiBabel,
+	SiDocker,
+	SiGit,
+	SiGithub,
+	SiGo,
+	SiJava,
+	SiNextdotjs as SiNextDotJs,
+	SiNodedotjs as SiNodeDotJs,
+	SiPostgresql,
+	SiReact,
+	SiRedis,
+	SiStyledcomponents as SiStyledComponents,
+	SiTailwindcss,
+	SiTwitter,
+	SiTypescript,
+	SiWebpack,
+	SiWebstorm,
+	SiMongodb,
+	SiYarn,
+} from 'react-icons/si';
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
@@ -55,6 +77,33 @@ If You Have Any Questions Or Would Just Like To Say Hi,  You Can Dm Me On Any O
           </NextLink>
         </Box>
       </Section>
+
+      <Section delay={0.1}>
+        <Heading as="h3" variant="section-title">
+          Technologies
+        </Heading>
+
+<ul className="grid grid-cols-3 gap-4 sm:grid-cols-4">
+					<ListItem icon={SiDocker} text="Docker" />
+					<ListItem icon={SiRedis} text="Redis" />
+					<ListItem icon={SiPostgresql} text="Postgres" />
+					<ListItem icon={SiReact} text="React.js" />
+					<ListItem icon={SiNodeDotJs} text="Node.js" />
+					<ListItem icon={SiTypescript} text="TypeScript" />
+					<ListItem icon={SiGo} text="Golang" />
+					<ListItem icon={SiJava} text="Java" />
+					<ListItem icon={SiAmazonaws} text="AWS" />
+					<ListItem icon={SiWebstorm} text="WebStorm" />
+					<ListItem icon={SiNextDotJs} text="Next.js" />
+					<ListItem icon={SiWebpack} text="Webpack" />
+					<ListItem icon={SiBabel} text="Babel" />
+					<ListItem icon={SiYarn} text="Yarn" />
+					<ListItem icon={SiTailwindcss} text="TailwindCSS" />
+					<ListItem icon={SiGit} text="Git" />
+					<ListItem icon={SiStyledComponents} text="styled-components" />
+					<ListItem icon={SiMongodb} text="Mongo" />
+				</ul>    
+
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           Social Media
