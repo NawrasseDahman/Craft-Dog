@@ -15,23 +15,16 @@ import {
 import {
   SiJavascript,
   SiTypescript,
-  SiMarkdown,
   SiChakraui,
   SiNodedotjs,
-  SiExpress,
-  SiElectron,
   SiVuedotjs,
-  SiThreedotjs,
   SiNextdotjs,
   SiHtml5,
   SiCss3,
   SiSass,
   SiPython,
-  SiGo,
-  SiRuby,
   SiJava,
   SiReact,
-  SiPug,
   SiTailwindcss,
   SiStyledcomponents
 } from "react-icons/si";
@@ -89,7 +82,11 @@ const Business = () => (
         </Heading>
           <HStack>
           <Center>
-          <Icon as={SiJavascript} w='40px' h='40px' />
+          <List spacing={4}>
+           <ListItem>
+           <ListIcon as={SiJavascript} color='yellow' />
+            Javascript
+           </ListItem>
           </Center>
           <Center>
           <Icon as={SiTypescript} w='40px' h='40px' />
@@ -101,28 +98,16 @@ const Business = () => (
           <Icon as={SiNodedotjs} w='40px' h='40px' />
           </Center>
           <Center>
-          <Icon as={SiThreedotjs} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiExpress} w='40px' h='40px' />
-          </Center>
-          <Center>
           <Icon as={SiVuedotjs} w='40px' h='40px' />
           </Center>
           <Center>
           <Icon as={SiNextdotjs} w='40px' h='40px' />
           </Center>
           <Center>
-          <Icon as={SiMarkdown} w='40px' h='40px' />
-          </Center>
-          <Center>
           <Icon as={SiHtml5} w='40px' h='40px' />
           </Center>
           <Center>
           <Icon as={SiCss3} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiPug} w='40px' h='40px' />
           </Center>
           <Center>
           <Icon as={SiSass} w='40px' h='40px' />
@@ -134,16 +119,7 @@ const Business = () => (
           <Icon as={SiJava} w='40px' h='40px' />
           </Center>
           <Center>
-          <Icon as={SiRuby} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiGo} w='40px' h='40px' />
-          </Center>
-          <Center>
           <Icon as={SiReact} w='40px' h='40px' />
-          </Center>
-          <Center>
-          <Icon as={SiElectron} w='40px' h='40px' />
           </Center>
           <Center>
           <Icon as={SiTailwindcss} w='40px' h='40px' />
@@ -152,6 +128,7 @@ const Business = () => (
           <Icon as={SiStyledcomponents} w='40px' h='40px' />
           </Center>
           </HStack>
+          </List>
       </Section>
 
       <Section delay={0.5}>
