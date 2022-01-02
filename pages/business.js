@@ -14,19 +14,7 @@ import {
 } from "@chakra-ui/react";
 import {
   SiJavascript,
-  SiTypescript,
-  SiChakraui,
-  SiNodedotjs,
-  SiVuedotjs,
-  SiNextdotjs,
-  SiHtml5,
-  SiCss3,
-  SiSass,
-  SiPython,
-  SiJava,
-  SiReact,
-  SiTailwindcss,
-  SiStyledcomponents
+  SiTypescript
 } from "react-icons/si";
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
