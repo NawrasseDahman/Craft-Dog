@@ -7,27 +7,12 @@ import {
   Button,
   List,
   ListItem,
+  ListIcon,
   Icon,
   useColorModeValue
 } from "@chakra-ui/react";
 import {
-  SiAmazonaws,
-  SiBabel,
-  SiDocker,
-  SiGit,
-  SiGo,
-  SiJava,
-  SiNextdotjs,
-  SiNodedotjs,
-  SiPostgresql,
-  SiReact,
-  SiRedis,
-  SiStyledcomponents,
-  SiTailwindcss,
   SiTypescript,
-  SiWebpack,
-  SiWebstorm,
-  SiMongodb,
   SiYarn
 } from "react-icons/si";
 import { FaRegCaretSquareRight } from "react-icons/fa";
@@ -83,24 +68,17 @@ const Business = () => (
           Technologies
         </Heading>
         <ul>
-          <ListItem icon={SiDocker} text="Docker" />
-          <ListItem icon={SiRedis} text="Redis" />
-          <ListItem icon={SiPostgresql} text="Postgres" />
-          <ListItem icon={SiReact} text="React.js" />
-          <ListItem icon={SiNodedotjs} text="Node.js" />
-          <ListItem icon={SiTypescript} text="TypeScript" />
-          <ListItem icon={SiGo} text="Golang" />
-          <ListItem icon={SiJava} text="Java" />
-          <ListItem icon={SiAmazonaws} text="AWS" />
-          <ListItem icon={SiWebstorm} text="WebStorm" />
-          <ListItem icon={SiNextdotjs} text="Next.js" />
-          <ListItem icon={SiWebpack} text="Webpack" />
-          <ListItem icon={SiBabel} text="Babel" />
-          <ListItem icon={SiYarn} text="Yarn" />
-          <ListItem icon={SiTailwindcss} text="TailwindCSS" />
-          <ListItem icon={SiGit} text="Git" />
-          <ListItem icon={SiStyledcomponents} text="styled-components" />
-          <ListItem icon={SiMongodb} text="Mongo" />
+          <List spacing={3}>
+            <ListItem>
+              <ListIcon as={SiTypescript} color='green.500' />
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            </ListItem>
+            <ListItem>
+              <ListIcon as={SiYarn} color='green.500' />
+    Assumenda, quia temporibus eveniet a libero incidunt suscipit
+            </ListItem>
+           
+          </List>
         </ul>
       </Section>
 
