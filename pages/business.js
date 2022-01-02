@@ -27,15 +27,12 @@ import {
   SiCss3,
   SiSass,
   SiPython,
-  SiGit,
   SiGo,
   SiRuby,
   SiJava,
   SiReact,
   SiPug,
   SiTailwindcss,
-  SiFlask,
-  SiNpm,
   SiStyledcomponents
 } from "react-icons/si";
 import { FaRegCaretSquareRight } from "react-icons/fa";
@@ -91,76 +88,67 @@ const Business = () => (
           Technologies
         </Heading>
           <HStack>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiJavascript />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiTypescript />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiChakraui />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiNodedotjs />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiThreedotjs />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiExpress />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiVuedotjs />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiNextdotjs />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiMarkdown />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiHtml5 />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiCss3 />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiPug />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiSass />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
-          <SiGit />
-          </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiPython />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiJava />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiRuby />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiGo />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiReact/>
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiElectron />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
-          <SiFlask />
-          </Center>
-          <Center bg='#fcd5a2' color='white'>
-          <SiNpm />
-          </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiTailwindcss />
           </Center>
-          <Center bg='#fcd5a2' color='white'>
+          <Center>
           <SiStyledcomponents />
           </Center>
           </HStack>
