@@ -5,18 +5,11 @@ import {
   Heading,
   Box,
   Button,
-  HStack,
   List,
-  ListIcon,
   ListItem,
   Icon,
-  Center,
   useColorModeValue
 } from "@chakra-ui/react";
-import {
-  SiJavascript,
-  SiTypescript
-} from "react-icons/si";
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
