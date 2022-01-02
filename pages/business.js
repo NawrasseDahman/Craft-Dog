@@ -89,67 +89,67 @@ const Business = () => (
         </Heading>
           <HStack>
           <Center>
-          <SiJavascript />
+          <Icon as={SiJavascript} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiTypescript />
+          <Icon as={SiTypescript} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiChakraui />
+          <Icon as={SiChakraui} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiNodedotjs />
+          <Icon as={SiNodedotjs} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiThreedotjs />
+          <Icon as={SiThreedotjs} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiExpress />
+          <Icon as={SiExpress} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiVuedotjs />
+          <Icon as={SiVuedotjs} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiNextdotjs />
+          <Icon as={SiNextdotjs} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiMarkdown />
+          <Icon as={SiMarkdown} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiHtml5 />
+          <Icon as={SiHtml5} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiCss3 />
+          <Icon as={SiCss3} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiPug />
+          <Icon as={SiPug} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiSass />
+          <Icon as={SiSass} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiPython />
+          <Icon as={SiPython} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiJava />
+          <Icon as={SiJava} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiRuby />
+          <Icon as={SiRuby} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiGo />
+          <Icon as={SiGo} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiReact/>
+          <Icon as={SiReact} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiElectron />
+          <Icon as={SiElectron} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiTailwindcss />
+          <Icon as={SiTailwindcss} w='40px' h='40px' />
           </Center>
           <Center>
-          <SiStyledcomponents />
+          <Icon as={SiStyledcomponents} w='40px' h='40px' />
           </Center>
           </HStack>
       </Section>
