@@ -80,26 +80,11 @@ If You Have Any Questions Or Would Just Like To Say Hi,  You Can Dm Me On Any O
         <Heading as="h3" variant="section-title">
           Technologies
         </Heading>
-      <ul>
-        <ListItem icon={SiDocker} text="Docker" />
-	<ListItem icon={SiRedis} text="Redis" />
-	<ListItem icon={SiPostgresql} text="Postgres" />
-	<ListItem icon={SiReact} text="React.js" />
-	<ListItem icon={SiNodedotjs} text="Node.js" />
-	<ListItem icon={SiTypescript} text="TypeScript" />
-	<ListItem icon={SiGo} text="Golang" />
-	<ListItem icon={SiJava} text="Java" />
-	<ListItem icon={SiAmazonaws} text="AWS" />
-	<ListItem icon={SiWebstorm} text="WebStorm" />
-	<ListItem icon={SiNextdotjs} text="Next.js" />
-	<ListItem icon={SiWebpack} text="Webpack" />
-	<ListItem icon={SiBabel} text="Babel" />
-	<ListItem icon={SiYarn} text="Yarn" />
-	<ListItem icon={SiTailwindcss} text="TailwindCSS" />
-	<ListItem icon={SiGit} text="Git" />
-        <ListItem icon={SiStyledcomponents} text="styled-components" />
-	<ListItem icon={SiMongodb} text="Mongo" />
-      </ul>   
+         <ul>
+               <ListItem icon={SiDocker} text="Docker" />
+	
+		 
+         </ul>   
       </Section>
 
       <Section delay={0.5}>
