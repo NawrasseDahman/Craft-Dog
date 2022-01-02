@@ -89,9 +89,8 @@ const Business = () => (
         <Heading as="h3" variant="section-title">
           Technologies
         </Heading>
-      <Paragraph>
-        <ul>
-          <List spacing={3}>
+        <ul fontSize={'24px'} verticalAlign="center" viewBox="0 0 25 15">
+          <List>
             <ListItem> <ListIcon as={SiTypescript} /> TypeScript </ListItem>
             <ListItem> <ListIcon as={SiJavascript} /> JavaScript </ListItem>
             <ListItem> <ListIcon as={SiMarkdown} /> Markdown </ListItem>
@@ -118,7 +117,6 @@ const Business = () => (
             <ListItem> <ListIcon as={SiNpm} /> NPM </ListItem>
           </List>
         </ul>
-      </Paragraph>
       </Section>
 
       <Section delay={0.5}>
