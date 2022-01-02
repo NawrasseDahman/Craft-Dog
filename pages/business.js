@@ -5,8 +5,9 @@ import {
   Heading,
   Box,
   Button,
-  Stack,
-  StackProps,
+  HStack,
+  List,
+  ListItem,
   Icon,
   useColorModeValue
 } from "@chakra-ui/react";
