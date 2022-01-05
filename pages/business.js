@@ -14,7 +14,7 @@ import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
-import { FaTwitter, FaGithub, FaDiscord, FaMastodon } from "react-icons/fa";
+import { FaTwitter, FaGithub, FaDiscord, FaEnvelopeSquare } from "react-icons/fa";
 
 const Business = () => (
   <Layout>
@@ -90,7 +90,7 @@ const Business = () => (
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={FaMastodon} />}
+                leftIcon={<Icon as={FaEnvelopeSquare} />}
               >
                 @NawrasseDahman
               </Button>
