@@ -1,4 +1,3 @@
-"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.age = exports.YEAR = exports.DAY = exports.HOUR = exports.MINUTE = exports.SECOND = exports.MILLISECOND = void 0;
 var bday = new Date('17 July 2004 00:05:00 GMT');
