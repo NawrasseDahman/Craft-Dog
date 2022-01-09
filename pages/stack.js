@@ -56,7 +56,7 @@ const TechStack = () => {
             >
                 Tech Stack
             </Heading>
-            <Text textColor={useColorModeValue("whiteAlpha.500', 'whiteAlpha.200")} fontSize={'lg'}>A list of my favorite tools and technologies that I use on a regular basis.</Text>
+            <Text textColor={useColorModeValue("whiteAlpha.500', 'whiteAlpha.200")} fontSize={'lg'}>A List Of My Favorite Tools And Technologies That I Use On A Regular Basis.</Text>
             <Grid
                 mt={5}
                 templateColumns={["1fr", "repeat(2,1fr)", "repeat(3, 1fr)", "repeat(4, 1fr)"]}
