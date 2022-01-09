@@ -16,8 +16,8 @@ const StackCard = ({ stack }) => {
                 cursor="pointer"
                 display="flex"
                 role="group"
-                _hover={{
-                borderColor: "#202023",
+                _hover={{ 
+                       borderColor: "blue.500",
                 }}
             >
 
