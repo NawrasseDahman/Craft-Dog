@@ -1,9 +1,50 @@
 import React from 'react';
 import { Heading, SlideFade, Grid, Text, useColorModeValue } from "@chakra-ui/react";
 import StackCard from '../components/StackCard';
-import { techStacks } from '../components/index';
 
-const TechStackSection = () => {
+const TechStack = () => {
+    const techStacks = [
+    {
+        name: "Android",
+        icon: <FaAndroid fontSize="20px" />,
+        url: "https://www.android.com/",
+    },
+    {
+        name: "React Native",
+        icon: <FaReact fontSize="20px" />,
+        url: "https://reactnative.dev/",
+    },
+    {
+        name: "Kotlin",
+        icon: <SiKotlin fontSize="20px" />,
+        url: "https://kotlinlang.org/",
+    },
+    {
+        name: "Java",
+        icon: <FaJava fontSize="20px" />,
+        url: "https://www.java.com/en/",
+    },
+    {
+        name: "Javascript",
+        icon: <FaJs fontSize="20px" />,
+        url: "https://www.javascript.com/",
+    },
+    {
+        name: "Firebase",
+        icon: <SiFirebase fontSize="20px" />,
+        url: "https://firebase.google.com/",
+    },
+    {
+        name: "Github & GitLab",
+        icon: <FaGitAlt fontSize="20px" />,
+        url: "https://www.gitlab.com/",
+    },
+    {
+        name: "CI/CD - Fastlane",
+        icon: <SiFastlane fontSize="20px" />,
+        url: "https://fastlane.tools/",
+    },
+];
     return (
         <SlideFade in offsetY={80} delay={0.2}>
             <Heading
@@ -27,4 +68,4 @@ const TechStackSection = () => {
     )
 }
 
-export default TechStackSection;
+export default TechStack;
