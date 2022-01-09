@@ -14,6 +14,8 @@ import {
          SiMarkdown,
          SiGo,
          SiSpotify,
+         SiReplit,
+         SiVercel,
          SiPug,
          SiPython,
          SiElectron,
@@ -119,8 +121,18 @@ const TechStack = () => {
     {
         name: "Spotify",
         icon: <SiSpotify fontSize="20px" />,
-        url: "https://open.spotify.com/user/4pevqlgntbtzf7quj0q307245?si=i8ckzlWwQ32KWQM9pTtW7g&utm_source=copy-link",
-    },        
+        url: "https://www.spotify.com/",
+    },
+    {
+        name: "Vercel",
+        icon: <SiVercel fontSize="20px" />,
+        url: "https://vercel.com/",
+    },
+    {
+        name: "Repl.It",
+        icon: <SiReplit fontSize="20px" />,
+        url: "https://replit.com/",
+    },
 ];
     return (
         <SlideFade in offsetY={80} delay={0.2}>
