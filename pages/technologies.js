@@ -13,6 +13,7 @@ import {
          SiJava,
          SiMarkdown,
          SiGo,
+         SiSpotify,
          SiPug,
          SiPython,
          SiElectron,
@@ -115,6 +116,11 @@ const TechStack = () => {
         icon: <SiMarkdown fontSize="20px" />,
         url: "https://markdownguide.org/",
     },
+    {
+        name: "Spotify",
+        icon: <SiSpotify fontSize="20px" />,
+        url: "https://open.spotify.com/user/4pevqlgntbtzf7quj0q307245?si=i8ckzlWwQ32KWQM9pTtW7g&utm_source=copy-link",
+    },        
 ];
     return (
         <SlideFade in offsetY={80} delay={0.2}>
