@@ -5,7 +5,7 @@ import StackCard from '../components/stackcard';
 import {
          SiNextdotjs as SiNextDotJs,	
          SiNodedotjs as SiNodeDotJs,
-         SiFastlane,
+         SiTailwindcss,
          SiReact, 
          SiJava, 
          SiJavascript,
@@ -51,9 +51,9 @@ const TechStack = () => {
         url: "https://www.typescriptlang.org/",
     },
     {
-        name: "CI/CD - Fastlane",
-        icon: <SiFastlane fontSize="20px" />,
-        url: "https://fastlane.tools/",
+        name: "TailWind CSS",
+        icon: <SiTailwindcss fontSize="20px" />,
+        url: "https://tailwindcss.com/",
     },
 ];
     return (
