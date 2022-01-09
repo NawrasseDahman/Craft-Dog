@@ -37,6 +37,25 @@ const Business = () => (
           <p>Digital Craftsman ( Developer / Designer )</p>
         </Box>
       </Box>
+
+      <Box
+          flexShrink={0}
+          mt={{ base: 4, md: 0 }}
+          ml={{ md: 6 }}
+          textAlign="center"
+        >
+          <Image
+            borderColor="whiteAlpha.800"
+            borderWidth={2}
+            borderStyle="solid"
+            maxWidth="100px"
+            display="inline-block"
+            borderRadius="full"
+            src="/nawrasse.png"
+            alt="Profile image"
+          />
+       </Box>
+
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           Business Offers
