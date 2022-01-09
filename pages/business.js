@@ -8,6 +8,7 @@ import {
   List,
   ListItem,
   Icon,
+  Image,
   useColorModeValue
 } from "@chakra-ui/react";
 import { FaRegCaretSquareRight } from "react-icons/fa";
