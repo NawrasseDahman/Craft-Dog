@@ -5,12 +5,12 @@ import StackCard from '../components/stackcard';
 import {
          SiNextdotjs as SiNextDotJs,	
          SiNodedotjs as SiNodeDotJs,
-         SiFirebase, 
          SiFastlane,
          SiReact, 
          SiJava, 
          SiJavascript,
-         SiTypescript
+         SiTypescript,
+         SiStyledcomponents as SiStyledComponents
 } from "react-icons/si";
 
 const TechStack = () => {
@@ -41,9 +41,9 @@ const TechStack = () => {
         url: "https://www.javascript.com/",
     },
     {
-        name: "Firebase",
-        icon: <SiFirebase fontSize="20px" />,
-        url: "https://firebase.google.com/",
+        name: "Styled Components",
+        icon: <SiStyledComponents fontSize="20px" />,
+        url: "https://styled-components.com/",
     },
     {
         name: "TypeScript",
