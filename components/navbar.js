@@ -142,12 +142,9 @@ const Navbar = props => {
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
-                <MenuItem
-                  as={Link}
-                  href="/stack"
-                >
-                  Stack
-                </MenuItem>
+                <NextLink href="/stack" passHref>
+                  <MenuItem as={Link}>Stack</MenuItem>
+                </NextLink>
                 <MenuItem
                   as={Link}
                   href="https://open.spotify.com/user/4pevqlgntbtzf7quj0q307245?si=i38Ih3MgQTuypyjtO7cH6w&utm_source=copy-link"
