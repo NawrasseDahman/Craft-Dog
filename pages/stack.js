@@ -11,6 +11,8 @@ import {
          SiHtml5,
          SiCss3,
          SiJava,
+         SiGo,
+         SiPug,
          SiPython,
          SiElectron,
          SiVuedotjs as SiVueDotJs,
@@ -96,6 +98,16 @@ const TechStack = () => {
         name: "SASS",
         icon: <SiSass fontSize="20px" />,
         url: "https://sass-lang.com/",
+    },
+    {
+        name: "Go",
+        icon: <SiGo fontSize="20px" />,
+        url: "https://go.dev/",
+    },
+    {
+        name: "Pug",
+        icon: <SiPug fontSize="20px" />,
+        url: "https://pugjs.org/",
     },
 ];
     return (
