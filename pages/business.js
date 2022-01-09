@@ -56,7 +56,7 @@ const Business = () => (
             alt="Profile image"
           />
        </Box>
-
+     </Box>
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           Business Offers
