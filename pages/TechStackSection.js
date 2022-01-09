@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heading, SlideFade, Grid, Text, useColorModeValue } from "@chakra-ui/react";
 import StackCard from '../components/StackCard';
-import { techStacks } from '../constant';
+import { techStacks } from '../components';
 
 const TechStackSection = () => {
     return (
