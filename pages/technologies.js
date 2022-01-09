@@ -1,5 +1,6 @@
 import React from 'react';
-import { Heading, SlideFade, Grid, Text, useColorModeValue } from "@chakra-ui/react";
+import Paragraph from '../components/paragraph';
+import { Heading, SlideFade, Grid, useColorModeValue } from "@chakra-ui/react";
 import StackCard from '../components/stackcard';
 
 import {
@@ -197,7 +198,8 @@ const TechStack = () => {
             >
                 Tech Stack
             </Heading>
-            <Text textColor={useColorModeValue("whiteAlpha.500', 'whiteAlpha.200")} fontSize={'lg'}>A List Of My Favorite Tools And Technologies That I Use On A Regular Basis.</Text>
+            <Paragraph textColor={useColorModeValue("whiteAlpha.500', 'whiteAlpha.200")} fontSize={'lg'}>
+             A List Of My Favorite Tools And Technologies That I Use On A Regular Basis.</Paragraph>
             <Grid
                 mt={5}
                 templateColumns={["1fr", "repeat(2,1fr)", "repeat(3, 1fr)", "repeat(4, 1fr)"]}
