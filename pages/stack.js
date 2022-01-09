@@ -8,6 +8,7 @@ import {
          SiTailwindcss,
          SiReact, 
          SiJava,
+         SiPython,
          SiVuedotjs as SiVueDotJs,
          SiChakraui,
          SiJavascript,
@@ -66,6 +67,11 @@ const TechStack = () => {
         name: "Vue.Js",
         icon: <SiVueDotJs fontSize="20px" />,
         url: "https://vuejs.org/",
+    },
+    {
+        name: "Python",
+        icon: <SiPython fontSize="20px" />,
+        url: "https://www.python.org/",
     },
 ];
     return (
