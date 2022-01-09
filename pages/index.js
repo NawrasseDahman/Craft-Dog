@@ -65,7 +65,7 @@ const Home = () => (
           Who Am I
         </Heading>
         <Paragraph>
-          Nawrasse ( {age.toPrecision(2)} Years Old )
+          Nawrasse ( {age.toPrecision(4)} Years Old )
           Is A Full-Stack Developer & Designer Based In Tangier With Passion For 
           Building Digital Services / Stuff He Wants Or Likes Or Even Needs. He Knows A Lot Of Programming
           Languages, Which Makes Him An Expert At Doing His Thing.
