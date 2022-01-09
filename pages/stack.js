@@ -6,7 +6,10 @@ import {
          SiNextdotjs as SiNextDotJs,	
          SiNodedotjs as SiNodeDotJs,
          SiTailwindcss,
-         SiReact, 
+         SiReact,
+         SiSass,
+         SiHtml5,
+         SiCss3,
          SiJava,
          SiPython,
          SiElectron,
@@ -78,6 +81,21 @@ const TechStack = () => {
         name: "Electron.Js",
         icon: <SiElectron fontSize="20px" />,
         url: "https://www.electronjs.org/",
+    },
+    {
+        name: "Html",
+        icon: <SiHtml5 fontSize="20px" />,
+        url: "https://html.com/",
+    },
+    {
+        name: "CSS",
+        icon: <SiCss3 fontSize="20px" />,
+        url: "https://css-tricks.com/",
+    },
+    {
+        name: "SASS",
+        icon: <SiSass fontSize="20px" />,
+        url: "https://sass-lang.com/",
     },
 ];
     return (
