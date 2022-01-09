@@ -12,11 +12,14 @@ import {
          SiCss3,
          SiJava,
          SiMarkdown,
+         SiStackoverflow,
          SiGo,
+         SiVisualstudiocode,
          SiSpotify,
          SiReplit,
          SiVercel,
          SiGit,
+         SiPrettier,
          SiCodepen,
          SiGithub,
          SiPug,
@@ -124,7 +127,7 @@ const TechStack = () => {
     {
         name: "Spotify",
         icon: <SiSpotify fontSize="20px" />,
-        url: "https://www.spotify.com/",
+        url: "https://spotify.com/",
     },
     {
         name: "Vercel",
@@ -150,6 +153,21 @@ const TechStack = () => {
         name: "Codepen",
         icon: <SiCodepen fontSize="20px" />,
         url: "https://codepen.io/",
+    },
+    {
+        name: "Prettier",
+        icon: <SiPrettier fontSize="20px" />,
+        url: "https://prettier.io/",
+    },
+    {
+        name: "StackOverFlow",
+        icon: <SiStackoverflow fontSize="20px" />,
+        url: "https://stackoverflow.com/",
+    },
+    {
+        name: "Visual Studio Code",
+        icon: <SiVisualstudiocode fontSize="20px" />,
+        url: "https://code.visualstudio.com/",
     },
 ];
     return (
