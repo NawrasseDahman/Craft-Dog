@@ -52,11 +52,11 @@ const TechStack = () => {
             <Heading
                 as="h1"
                 fontSize={{ base: "24px", md: "30px", lg: "36px" }}
-                mb={3}
+                mb={3} variant="section-title"
             >
                 Tech Stack
             </Heading>
-            <Text textColor={useColorModeValue("gray.600", "gray.400")} fontSize={'lg'}>A list of my favorite tools and technologies that I use on a regular basis.</Text>
+            <Text textColor={useColorModeValue("whiteAlpha.500', 'whiteAlpha.200")} fontSize={'lg'}>A list of my favorite tools and technologies that I use on a regular basis.</Text>
             <Grid
                 mt={5}
                 templateColumns={["1fr", "repeat(2,1fr)", "repeat(3, 1fr)", "repeat(4, 1fr)"]}
