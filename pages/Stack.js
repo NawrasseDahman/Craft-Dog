@@ -1,6 +1,8 @@
 import React from 'react';
 import { Heading, SlideFade, Grid, Text, useColorModeValue } from "@chakra-ui/react";
 import StackCard from '../components/StackCard';
+import { FaAndroid, FaReact, FaJava, FaJs, FaGitAlt } from 'react-icons/fa';
+import { SiKotlin, SiFirebase, SiFastlane } from "react-icons/si";
 
 const TechStack = () => {
     const techStacks = [
