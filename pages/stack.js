@@ -1,15 +1,26 @@
 import React from 'react';
 import { Heading, SlideFade, Grid, Text, useColorModeValue } from "@chakra-ui/react";
 import StackCard from '../components/stackcard';
-import { FaAndroid, FaReact, FaJava, FaJs, FaGitAlt } from 'react-icons/fa';
-import { SiKotlin, SiFirebase, SiFastlane } from "react-icons/si";
+import {
+         FaReact, 
+         FaJava, 
+         FaJs, 
+         FaGitAlt
+} from 'react-icons/fa';
+
+import {
+         SiNextdotjs as SiNextDotJs,	
+         SiNodedotjs as SiNodeDotJs,
+         SiFirebase, 
+         SiFastlane 
+} from "react-icons/si";
 
 const TechStack = () => {
     const techStacks = [
     {
-        name: "Android",
-        icon: <FaAndroid fontSize="20px" />,
-        url: "https://www.android.com/",
+        name: "Next.Js",
+        icon: <SiNextDotJs fontSize="20px" />,
+        url: "https://nextjs.org/",
     },
     {
         name: "React Native",
@@ -17,9 +28,9 @@ const TechStack = () => {
         url: "https://reactnative.dev/",
     },
     {
-        name: "Kotlin",
-        icon: <SiKotlin fontSize="20px" />,
-        url: "https://kotlinlang.org/",
+        name: "Node.Js",
+        icon: <SiNodeDotJs fontSize="20px" />,
+        url: "https://nodejs.org/",
     },
     {
         name: "Java",
