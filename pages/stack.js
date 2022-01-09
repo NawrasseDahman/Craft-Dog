@@ -11,6 +11,7 @@ import {
          SiHtml5,
          SiCss3,
          SiJava,
+         SiMarkdown,
          SiGo,
          SiPug,
          SiPython,
@@ -42,12 +43,12 @@ const TechStack = () => {
     {
         name: "Java",
         icon: <SiJava fontSize="20px" />,
-        url: "https://www.java.com/en/",
+        url: "https://java.com/en/",
     },
     {
         name: "JavaScript",
         icon: <SiJavascript fontSize="20px" />,
-        url: "https://www.javascript.com/",
+        url: "https://javascript.com/",
     },
     {
         name: "Styled Components",
@@ -57,7 +58,7 @@ const TechStack = () => {
     {
         name: "TypeScript",
         icon: <SiTypescript fontSize="20px" />,
-        url: "https://www.typescriptlang.org/",
+        url: "https://typescriptlang.org/",
     },
     {
         name: "TailWind CSS",
@@ -77,12 +78,12 @@ const TechStack = () => {
     {
         name: "Python",
         icon: <SiPython fontSize="20px" />,
-        url: "https://www.python.org/",
+        url: "https://python.org/",
     },
     {
         name: "Electron.Js",
         icon: <SiElectron fontSize="20px" />,
-        url: "https://www.electronjs.org/",
+        url: "https://electronjs.org/",
     },
     {
         name: "Html",
@@ -108,6 +109,11 @@ const TechStack = () => {
         name: "Pug",
         icon: <SiPug fontSize="20px" />,
         url: "https://pugjs.org/",
+    },
+    {
+        name: "Markdown",
+        icon: <SiMarkdown fontSize="20px" />,
+        url: "https://markdownguide.org/",
     },
 ];
     return (
