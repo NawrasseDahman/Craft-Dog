@@ -144,9 +144,9 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://codepen.io/nawrassedahman"
+                  href="/stack"
                 >
-                  Codepen
+                  Stack
                 </MenuItem>
                 <MenuItem
                   as={Link}
