@@ -1,7 +1,7 @@
 import React from 'react';
 import { LinkBox, Box, IconButton, LinkOverlay, Heading, Text, useColorModeValue, Flex } from '@chakra-ui/react';
-import Paragraph from './Paragraph';
-import { MotionBox } from '../utils/motion';
+import Paragraph from '../components/paragraph';
+import { MotionBox } from '../lib/motion';
 
 const StackCard = ({ stack }) => {
     return (
