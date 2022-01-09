@@ -1,18 +1,16 @@
 import React from 'react';
 import { Heading, SlideFade, Grid, Text, useColorModeValue } from "@chakra-ui/react";
 import StackCard from '../components/stackcard';
-import {
-         FaReact, 
-         FaJava, 
-         FaJs, 
-         FaGitAlt
-} from 'react-icons/fa';
 
 import {
          SiNextdotjs as SiNextDotJs,	
          SiNodedotjs as SiNodeDotJs,
          SiFirebase, 
-         SiFastlane 
+         SiFastlane,
+         SiReact, 
+         SiJava, 
+         SiJavascript,
+         SiTypescript
 } from "react-icons/si";
 
 const TechStack = () => {
@@ -23,9 +21,9 @@ const TechStack = () => {
         url: "https://nextjs.org/",
     },
     {
-        name: "React Native",
-        icon: <FaReact fontSize="20px" />,
-        url: "https://reactnative.dev/",
+        name: "React.Js",
+        icon: <SiReact fontSize="20px" />,
+        url: "https://reactjs.org/",
     },
     {
         name: "Node.Js",
@@ -34,12 +32,12 @@ const TechStack = () => {
     },
     {
         name: "Java",
-        icon: <FaJava fontSize="20px" />,
+        icon: <SiJava fontSize="20px" />,
         url: "https://www.java.com/en/",
     },
     {
-        name: "Javascript",
-        icon: <FaJs fontSize="20px" />,
+        name: "JavaScript",
+        icon: <SiJavascript fontSize="20px" />,
         url: "https://www.javascript.com/",
     },
     {
@@ -48,9 +46,9 @@ const TechStack = () => {
         url: "https://firebase.google.com/",
     },
     {
-        name: "Github & GitLab",
-        icon: <FaGitAlt fontSize="20px" />,
-        url: "https://www.gitlab.com/",
+        name: "TypeScript",
+        icon: <SiTypescript fontSize="20px" />,
+        url: "https://www.typescriptlang.org/",
     },
     {
         name: "CI/CD - Fastlane",
