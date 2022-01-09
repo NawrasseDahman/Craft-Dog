@@ -7,7 +7,8 @@ import {
          SiNodedotjs as SiNodeDotJs,
          SiTailwindcss,
          SiReact, 
-         SiJava, 
+         SiJava,
+         SiChakraui,
          SiJavascript,
          SiTypescript,
          SiStyledcomponents as SiStyledComponents
@@ -54,6 +55,11 @@ const TechStack = () => {
         name: "TailWind CSS",
         icon: <SiTailwindcss fontSize="20px" />,
         url: "https://tailwindcss.com/",
+    },
+    {
+        name: "Chakra-UI",
+        icon: <SiChakraui fontSize="20px" />,
+        url: "https://chakra-ui.com/",
     },
 ];
     return (
