@@ -97,7 +97,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href="/stack"
+            href="/technologies"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -105,7 +105,7 @@ const Navbar = props => {
             pl={2}
           >
             <FaElementor />
-            Stack
+            Technologies
           </LinkItem>
           <LinkItem
             _target="_blank"
@@ -142,8 +142,8 @@ const Navbar = props => {
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
-                <NextLink href="/stack" passHref>
-                  <MenuItem as={Link}>Stack</MenuItem>
+                <NextLink href="/technologies" passHref>
+                  <MenuItem as={Link}>Technologies</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
