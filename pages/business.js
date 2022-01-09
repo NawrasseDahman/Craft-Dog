@@ -33,7 +33,7 @@ const Business = () => (
       <Box display={{ md: "flex" }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            If You Work, It Will Work.
+            Play By The Rules, But Be Ferocious.
           </Heading>
           <p>Digital Craftsman ( Developer / Designer )</p>
         </Box>
