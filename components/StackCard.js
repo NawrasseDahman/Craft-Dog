@@ -9,7 +9,7 @@ const StackCard = ({ stack }) => {
                 as="article"
                 w="100%"
                 p={4}
-                borderColor={useColorModeValue("gray.300", "gray.700")}
+                borderColor={useColorModeValue("purple.500", "orange.200")}
                 borderRadius={5}
                 borderWidth="1px"
                 transition=".5s"
@@ -17,7 +17,7 @@ const StackCard = ({ stack }) => {
                 display="flex"
                 role="group"
                 _hover={{ 
-                       borderColor: "blue.500",
+                       borderColor: "teal.200",
                 }}
             >
 
@@ -26,14 +26,14 @@ const StackCard = ({ stack }) => {
                         as="a"
                         aria-label={stack?.name}
                         mr={3}
-                        _groupHover={{ color: "blue.500" }}
+                        _groupHover={{ color: "teal.200" }}
                         icon={stack?.icon}
                     />
                     <LinkOverlay href={stack?.url} rel="noopener" isExternal>
                         <Flex>
                             <Text
                                 size="sm"
-                                _hover={{ color: "blue.500" }}
+                                _hover={{ color: "teal.200" }}
                             >{stack?.name}</Text>
                         </Flex>
                     </LinkOverlay>
