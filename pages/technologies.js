@@ -16,6 +16,9 @@ import {
          SiSpotify,
          SiReplit,
          SiVercel,
+         SiGit,
+         SiCodepen,
+         SiGithub,
          SiPug,
          SiPython,
          SiElectron,
@@ -132,6 +135,21 @@ const TechStack = () => {
         name: "Repl.It",
         icon: <SiReplit fontSize="20px" />,
         url: "https://replit.com/",
+    },
+    {
+        name: "Git",
+        icon: <SiGit fontSize="20px" />,
+        url: "https://git-scm.com/",
+    },
+    {
+        name: "Github",
+        icon: <SiGithub fontSize="20px" />,
+        url: "https://github.com/",
+    }, 
+    {
+        name: "Codepen",
+        icon: <SiCodepen fontSize="20px" />,
+        url: "https://codepen.io/",
     },
 ];
     return (
