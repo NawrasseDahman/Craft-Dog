@@ -9,6 +9,7 @@ import {
          SiReact, 
          SiJava,
          SiPython,
+         SiElectron,
          SiVuedotjs as SiVueDotJs,
          SiChakraui,
          SiJavascript,
@@ -72,6 +73,11 @@ const TechStack = () => {
         name: "Python",
         icon: <SiPython fontSize="20px" />,
         url: "https://www.python.org/",
+    },
+    {
+        name: "Electron.Js",
+        icon: <SiElectron fontSize="20px" />,
+        url: "https://www.electronjs.org/",
     },
 ];
     return (
