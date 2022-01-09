@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { FaSpotify, FaListAlt, FaBuffer, FaRobot } from 'react-icons/fa';
+import { FaSpotify, FaListAlt, FaBuffer, FaElementor } from 'react-icons/fa';
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -104,7 +104,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <FaRobot />
+            <FaElementor />
             Stack
           </LinkItem>
           <LinkItem
