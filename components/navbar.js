@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { FaSpotify, FaListAlt, FaBuffer, FaCodepen } from 'react-icons/fa';
+import { FaSpotify, FaListAlt, FaBuffer, FaRobot } from 'react-icons/fa';
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -97,15 +97,15 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href="https://codepen.io/nawrassedahman"
+            href="/stack"
             path={path}
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}
             pl={2}
           >
-            <FaCodepen />
-            Codepen
+            <FaRobot />
+            Stack
           </LinkItem>
           <LinkItem
             _target="_blank"
