@@ -6,13 +6,16 @@ import StackCard from '../components/stackcard';
 import {
          SiNextdotjs as SiNextDotJs,	
          SiNodedotjs as SiNodeDotJs,
+         SiThreedotjs as SiThreeDotJs,
          SiTailwindcss,
          SiReact,
+         SiPowershell,
          SiSass,
          SiJson,
          SiCanva,
          SiHtml5,
          SiNetlify,
+         SiRuby,
          SiCss3,
          SiJava,
          SiNpm,
@@ -205,7 +208,22 @@ const TechStack = () => {
         name: "JSON",
         icon: <SiJson fontSize="20px" />,
         url: "https://json.org/",
-    },        
+    },
+    {
+        name: "Three.Js",
+        icon: <SiThreeDotJs fontSize="20px" />,
+        url: "https://threejs.org/",
+    },
+    {
+        name: "Ruby",
+        icon: <SiRuby fontSize="20px" />,
+        url: "https://ruby-lang.org/",
+    },
+    {
+        name: "Power Shell",
+        icon: <SiPowershell fontSize="20px" />,
+        url: "",
+    },         
     
 ];
     return (
