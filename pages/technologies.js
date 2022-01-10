@@ -222,7 +222,7 @@ const TechStack = () => {
     {
         name: "Power Shell",
         icon: <SiPowershell fontSize="20px" />,
-        url: "",
+        url: "https://docs.microsoft.com/en-us/powershell/",
     },         
     
 ];
