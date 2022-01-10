@@ -9,10 +9,13 @@ import {
          SiTailwindcss,
          SiReact,
          SiSass,
+         SiJson,
+         SiCanva,
          SiHtml5,
          SiNetlify,
          SiCss3,
          SiJava,
+         SiNpm,
          SiMarkdown,
          SiStackoverflow,
          SiGo,
@@ -188,6 +191,22 @@ const TechStack = () => {
         icon: <SiNetlify fontSize="20px" />,
         url: "https://netlify.com/",
     },
+    {
+        name: "NPM",
+        icon: <SiNpm fontSize="20px" />,
+        url: "https://npmjs.com/",
+    },
+    {
+        name: "Canva",
+        icon: <SiCanva fontSize="20px" />,
+        url: "https://canva.com/",
+    },
+    {
+        name: "JSON",
+        icon: <SiJson fontSize="20px" />,
+        url: "https://json.org/",
+    },        
+    
 ];
     return (
         <SlideFade in offsetY={80} delay={0.2}>
