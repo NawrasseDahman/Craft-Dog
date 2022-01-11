@@ -18,8 +18,6 @@ import Section from '../components/section'
 import { SiSnapchat, SiInstagram, SiGithub, SiFacebook } from 'react-icons/si';
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import { age } from '../components/time';
-import SpotifySection from '../components/spotify';
-
 
 const Home = () => (
   <Layout>
