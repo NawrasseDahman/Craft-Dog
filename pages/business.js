@@ -83,9 +83,10 @@ const Business = () => (
         </Heading>
         <Paragraph>
             Thanks For Visiting This Website. I Hope You Enjoyed Your Stay. The Source Code
-            For This Website Is Available At{' '} 
-            <Link href="https://github.com/NawrasseDahman/Nawrasse-Dahman" target="_blank" /> 
-            NawrasseDahman/Nawrasse-Dahman.
+            For This Website Is Available At{' '}
+          <Link href="https://github.com/NawrasseDahman/Nawrasse-Dahman" target="_blank">
+            NawrasseDahman/Nawrasse-Dahman. 
+          </Link>
         </Paragraph>
       </Section>
 
