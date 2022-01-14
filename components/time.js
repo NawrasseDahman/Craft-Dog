@@ -1,11 +1,11 @@
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.age = exports.YEAR = exports.DAY = exports.HOUR = exports.MINUTE = exports.SECOND = exports.MILLISECOND = void 0;
-var bday = new Date('17 July 2004 00:05:00 GMT');
-var ageMilliseconds = Date.now() - bday.getTime();
-exports.MILLISECOND = 1;
-exports.SECOND = exports.MILLISECOND * 1000;
-exports.MINUTE = exports.SECOND * 60;
-exports.HOUR = exports.MINUTE * 60;
-exports.DAY = exports.HOUR * 24;
-exports.YEAR = exports.DAY * 365;
-exports.age = ageMilliseconds / exports.YEAR;
+const bday = new Date('17 July 2004 00:05:00 GMT');
+const ageMilliseconds = Date.now() - bday.getTime();
+
+export const MILLISECOND = 1;
+export const SECOND = MILLISECOND * 1000;
+export const MINUTE = SECOND * 60;
+export const HOUR = MINUTE * 60;
+export const DAY = HOUR * 24;
+export const YEAR = DAY * 365;
+
+export const age = ageMilliseconds / YEAR;
