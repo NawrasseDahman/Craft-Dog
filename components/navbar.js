@@ -73,18 +73,6 @@ const Navbar = props => {
         >
           <LinkItem  
             _target="_blank"
-            href="/business" 
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <FaListAlt />
-            Business
-          </LinkItem>
-          <LinkItem 
-            _target="_blank"
             href="/projects" 
             path={path}
             display="inline-flex"
@@ -95,9 +83,9 @@ const Navbar = props => {
             <FaBuffer />
             Projects
           </LinkItem>
-          <LinkItem
+          <LinkItem 
             _target="_blank"
-            href="/technologies"
+            href="/technologies" 
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -116,8 +104,20 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <FaSpotify />
+           <FaSpotify />
             Spotify
+          </LinkItem>
+          <LinkItem
+            _target="_blank"
+            href="/business"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <FaListAlt />
+            Business
           </LinkItem>
           </Stack>
 
@@ -136,21 +136,22 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>Home</MenuItem>
                 </NextLink>
-                <NextLink href="/business" passHref>
-                  <MenuItem as={Link}>Business</MenuItem>
-                </NextLink>
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
                 <NextLink href="/technologies" passHref>
                   <MenuItem as={Link}>Technologies</MenuItem>
                 </NextLink>
-                <MenuItem
-                  as={Link}
-                  href="https://open.spotify.com/user/4pevqlgntbtzf7quj0q307245?si=i38Ih3MgQTuypyjtO7cH6w&utm_source=copy-link"
+                <MenuItem 
+                 as={Link}
+                 href="https://open.spotify.com/user/4pevqlgntbtzf7quj0q307245?si=i38Ih3MgQTuypyjtO7cH6w&utm_source=copy-link"
                 >
                   Spotify
                 </MenuItem>
+                </NextLink>
+                <NextLink href="/business" passHref>
+                <MenuItem as={link}>Business</MenuItem>
+                </NextLink>
               </MenuList>
             </Menu>
           </Box>
