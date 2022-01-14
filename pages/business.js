@@ -82,10 +82,12 @@ const Business = () => (
           Thank You
         </Heading>
         <Paragraph>
-            Thanks For Visiting This Website. I Hope You Enjoyed Your Stay. The Source Code
-            For This Website Is Available At{' '}
+           Thanks For Visiting This Website. I Hope You Enjoyed Your Stay,
+           I Also Share All My Open Source Projects On Github Including This Website,
+           You Can Find The Source Code At{' '}
           <Link href="https://github.com/NawrasseDahman/Nawrasse-Dahman" target="_blank">
-            NawrasseDahman/Nawrasse-Dahman. 
+           NawrasseDahman/Nawrasse-Dahman. Don&apos;t Forget To Star It If You Like This
+           Website.
           </Link>
         </Paragraph>
       </Section>
