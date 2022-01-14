@@ -77,6 +77,19 @@ const Business = () => (
         </Box>
       </Section>
 
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Thank You
+        </Heading>
+        <Paragraph>
+            Thanks For Visiting This Website. I Hope You Enjoyed Your Stay. The Source Code
+            For This Website Is Available At{' '} 
+            <Link href="https://github.com/NawrasseDahman/Nawrasse-Dahman" target="_blank"> 
+            NawrasseDahman/Nawrasse-Dahman.
+            </link>
+        </Paragraph>
+      </Section>
+
       <Section delay={0.5}>
         <Heading as="h3" variant="section-title">
           Social Media
