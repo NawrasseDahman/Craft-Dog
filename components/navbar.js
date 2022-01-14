@@ -73,18 +73,6 @@ const Navbar = (props) => {
         >
           <LinkItem
             _target="_blank"
-            href="/business"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <FaListAlt />
-            Business
-          </LinkItem>
-          <LinkItem
-            _target="_blank"
             href="/projects"
             path={path}
             display="inline-flex"
@@ -119,6 +107,18 @@ const Navbar = (props) => {
             <FaSpotify />
             Spotify
           </LinkItem>
+          <LinkItem
+            _target="_blank"
+            href="/business"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <FaListAlt />
+            Business
+          </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
@@ -136,9 +136,6 @@ const Navbar = (props) => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>Home</MenuItem>
                 </NextLink>
-                <NextLink href="/business" passHref>
-                  <MenuItem as={Link}>Business</MenuItem>
-                </NextLink>
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
@@ -151,6 +148,10 @@ const Navbar = (props) => {
                 >
                   Spotify
                 </MenuItem>
+                <NextLink href="/business" passHref>
+                  <MenuItem as={Link}>Business</MenuItem>
+                </NextLink>            
+              
               </MenuList>
             </Menu>
           </Box>
