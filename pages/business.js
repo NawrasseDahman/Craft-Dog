@@ -86,7 +86,7 @@ const Business = () => (
            I Also Share All My Open Source Projects On Github Including This Website,
            You Can Find The Source Code At{' '}
           <Link href="https://github.com/NawrasseDahman/Nawrasse-Dahman" target="_blank">
-           NawrasseDahman/Nawrasse-Dahman.
+           NawrasseDahman/Nawrasse-Dahman,
           </Link> Don&apos;t Forget To Star It If You Like This Website.
         </Paragraph>
       </Section>
