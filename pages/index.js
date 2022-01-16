@@ -118,8 +118,8 @@ const Home = () => (
           The Originals 
           </Link> And{' '} 
           <Link href="https://www.google.com/search?q=Legacies&client=ms-android-samsung-ga-rev1&sxsrf=AOaemvIQULWYzWah6ax4KwjE98mRSRuIZA%3A1640417126862&ei=ZsfGYdb6M4nBlwS04YGACg&oq=Legacies&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAguECcyBAgjECcyBAgjECcyBAgAEEMyBAgAEEMyBAgAEEMyBAgAEEMyBAgAEENKBAhBGABQAFgAYNUHaABwAXgAgAGxBIgBsQSSAQM1LTGYAQDAAQE&sclient=mobile-gws-wiz-serp" target="_blank">
-          Legacies. 
-          </Link> I Also Enjoy Coding, Listening To Music, Playing Chess, Movie Nights, Holidays, Family Gatherings, Family Games.
+          Legacies
+          </Link>. I Also Enjoy Coding, Listening To Music, Playing Chess, Movie Nights, Holidays, Family Gatherings, Family Games.
         </Paragraph>
 
       <Section delay={0.4}>
