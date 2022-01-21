@@ -20,10 +20,8 @@ import {
          SiJava,
          SiNpm,
          SiMarkdown,
-         SiStackoverflow,
          SiGo,
          SiTorbrowser,
-         SiVisualstudiocode,
          SiSpotify,
          SiReplit,
          SiVercel,
@@ -38,8 +36,7 @@ import {
          SiVuedotjs as SiVueDotJs,
          SiChakraui,
          SiJavascript,
-         SiTypescript,
-         SiStyledcomponents as SiStyledComponents
+         SiTypescript
 } from "react-icons/si";
 
 const TechStack = () => {
@@ -68,11 +65,6 @@ const TechStack = () => {
         name: "JavaScript",
         icon: <SiJavascript fontSize="20px" />,
         url: "https://javascript.com/",
-    },
-    {
-        name: "Styled Components",
-        icon: <SiStyledComponents fontSize="20px" />,
-        url: "https://styled-components.com/",
     },
     {
         name: "TypeScript",
@@ -168,16 +160,6 @@ const TechStack = () => {
         name: "Prettier",
         icon: <SiPrettier fontSize="20px" />,
         url: "https://prettier.io/",
-    },
-    {
-        name: "StackOverFlow",
-        icon: <SiStackoverflow fontSize="20px" />,
-        url: "https://stackoverflow.com/",
-    },
-    {
-        name: "Visual Studio Code",
-        icon: <SiVisualstudiocode fontSize="20px" />,
-        url: "https://code.visualstudio.com/",
     },
     {
         name: "Tor Browser",
