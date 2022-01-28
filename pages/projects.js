@@ -22,7 +22,7 @@ import thumbthemechanger from "../public/images/contents/themechanger.png";
 import thumbsuperstardj from "../public/images/contents/superstardj.png";
 import thumbdiscordstage from "../public/images/contents/discordstage.png";
 import thumbmatrixrain from "../public/images/contents/matrixrain.png";
-import thumbminesweeper from "../public/images/contents/minesweeper.png";
+import thumbsponsor from "../public/images/contents/sponsor.png";
 import thumbclockwise from "../public/images/contents/clockwise.png";
 
 const Projects = () => (
@@ -124,9 +124,9 @@ const Projects = () => (
         <Section delay={0.15}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="A Recreation Of Minesweeper"
-            thumbnail={thumbminesweeper}
-            href="https://yourminesweeper.vercel.app"
+            title="Sponsor Nawrasse Dahman"
+            thumbnail={thumbsponsor}
+            href="https://sponsornawrasse.vercel.app"
           />
           <GridItem
             title="A Responsive Analog Clock UI Design"
