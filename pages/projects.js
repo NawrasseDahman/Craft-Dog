@@ -10,7 +10,7 @@ import {
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { GridItem } from "../components/grid-item";
-import { FaRegCaretSquareRight } from "react-icons/fa";
+import { RiGitRepositoryLine } from "react-icons/ri";
 
 import thumbcountdown from "../public/images/contents/countdown.png";
 import thumbterminal from "../public/images/contents/terminal.png";
@@ -138,8 +138,8 @@ const Projects = () => (
 
         <Box align="center" my={4}>
           <Link href="https://github.com/NawrasseDahman?tab=repositories" target="_blank">
-            <Button rightIcon={<FaRegCaretSquareRight />} colorScheme="teal">
-              Check Out More Projects
+            <Button rightIcon={<RiGitRepositoryLine />} colorScheme="teal">
+              See All Repositories
             </Button>
           </Link>
         </Box>
