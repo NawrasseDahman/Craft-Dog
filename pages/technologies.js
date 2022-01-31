@@ -9,7 +9,6 @@ import {
          SiThreedotjs as SiThreeDotJs,
          SiTailwindcss,
          SiReact,
-         SiPowershell,
          SiSass,
          SiJson,
          SiCanva,
@@ -201,12 +200,7 @@ const TechStack = () => {
         icon: <SiRuby fontSize="20px" />,
         url: "https://ruby-lang.org/",
     },
-    {
-        name: "Power Shell",
-        icon: <SiPowershell fontSize="20px" />,
-        url: "https://docs.microsoft.com/en-us/powershell/",
-    },         
-    
+
 ];
     return (
         <SlideFade in offsetY={80} delay={0.2}>
