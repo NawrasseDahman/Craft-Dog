@@ -96,7 +96,7 @@ const TechStack = () => {
         url: "https://electronjs.org/",
     },
     {
-        name: "Html",
+        name: "HTML",
         icon: <SiHtml5 fontSize="20px" />,
         url: "https://html.com/",
     },
