@@ -15,7 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { SiSnapchat, SiInstagram, SiGithub, SiFacebook } from 'react-icons/si';
+import { SiCodepen, SiInstagram, SiGithub, SiFacebook } from 'react-icons/si';
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import { age } from '../components/time';
 
@@ -139,11 +139,11 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.snapchat.com/add/nawrassedahman" target="_blank">
+            <Link href="https://codepen.io/nawrassedahman" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={SiSnapchat} />}
+                leftIcon={<Icon as={SiCodepen} />}
               >
                 @NawrasseDahman
               </Button>
