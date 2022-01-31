@@ -138,7 +138,7 @@ const Projects = () => (
 
         <Box align="center" my={4}>
           <Link href="https://github.com/NawrasseDahman?tab=repositories" target="_blank">
-            <Button rightIcon={<RiGitRepositoryLine />} colorScheme="teal">
+            <Button leftIcon={<RiGitRepositoryLine />} colorScheme="teal">
               See All Repositories
             </Button>
           </Link>
