@@ -22,7 +22,7 @@ import thumbthemechanger from "../public/images/contents/themechanger.png";
 import thumbsuperstardj from "../public/images/contents/superstardj.png";
 import thumbdiscordstage from "../public/images/contents/discordstage.png";
 import thumbmatrixrain from "../public/images/contents/matrixrain.png";
-import thumbsponsor from "../public/images/contents/sponsor.png";
+import thumbarbershop from "../public/images/contents/barbershop.png";
 import thumbclockwise from "../public/images/contents/clockwise.png";
 
 const Projects = () => (
@@ -125,8 +125,8 @@ const Projects = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Sponsor Nawrasse Dahman"
-            thumbnail={thumbsponsor}
-            href="https://sponsornawrasse.vercel.app"
+            thumbnail={thumbarbershop}
+            href="https://cssbarbershop.vercel.app"
           />
           <GridItem
             title="A Responsive Analog Clock UI Design"
