@@ -124,7 +124,7 @@ const Projects = () => (
         <Section delay={0.15}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="Sponsor Nawrasse Dahman"
+            title="CSS At The Barber Shop"
             thumbnail={thumbarbershop}
             href="https://cssbarbershop.vercel.app"
           />
