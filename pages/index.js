@@ -18,24 +18,6 @@ import Section from '../components/section'
 import { SiCodepen, SiInstagram, SiGithub, SiSpotify } from 'react-icons/si';
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import { age } from '../components/time';
-import ClipLoader from "react-spinners/ClipLoader";
-
-const override = css`
-  display: block;
-  margin: 0 auto;
-  border-color: "#ffda96";
-  color: "#ffda96";
-  loading: true;
-`; 
-
-  return (
-    <div className="sweet-loading">
-      <button onClick={() => setLoading(!loading)}>Toggle Loader</button>
-      <input value={color} onChange={(input) => setColor(input.target.value)} placeholder="Color of the loader" />
-
-      <ClipLoader color={color} loading={loading} css={override} size={150} />
-    </div>
-  );
 
 const Home = () => (
   <Layout>
