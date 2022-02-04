@@ -18,10 +18,22 @@ import Section from '../components/section'
 import { SiCodepen, SiInstagram, SiGithub, SiSpotify } from 'react-icons/si';
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import { age } from '../components/time';
-import React, { useEffect, useState } from "react";
-import ReactLoading from "react-loading";
+import React from 'react';
+import { Zoom } from 'react-preloaders';
+
 
 const Home = () => (
+
+   function App() {
+   return (
+     <React.Fragment>
+       <NawrasseDahman />
+       <Zoom color={'#ffda96'} />;
+       <Lines background="blur" />;
+     </React.Fragment>
+  );
+}
+  
   <Layout>
     <Container>
       <Box
