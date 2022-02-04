@@ -19,20 +19,14 @@ import { SiCodepen, SiInstagram, SiGithub, SiSpotify } from 'react-icons/si';
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import { age } from '../components/time';
 import React from 'react';
-import { Zoom } from 'react-preloaders';
+import { BarWave } from "react-cssfx-loading";
 
 
 const Home = () => (
-
-   function Home() {
-   return (
-     <React.Fragment>
-       <Zoom />
-       <Zoom color={'#ffda96'} />;
-       <Zoom background="blur" />;
-     </React.Fragment>
-  );
-},
+  
+  <BarWave />
+  <BarWave color="#ffda96" width="100px" height="100px" duration="5s" />
+  <BarWave onClick={() => alert("Clicked")} key="key" />
   
   <Layout>
     <Container>
