@@ -27,9 +27,9 @@ const Home = () => (
    function App() {
    return (
      <React.Fragment>
-       <NawrasseDahman />
+       <Zoom />
        <Zoom color={'#ffda96'} />;
-       <Lines background="blur" />;
+       <Zoom background="blur" />;
      </React.Fragment>
   );
 },
