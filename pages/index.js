@@ -23,14 +23,16 @@ import { BarWave } from "react-cssfx-loading";
 
 
 const Home = () => (
-  
+  <>
   <BarWave />
+  </>
   <>
   <BarWave color="#ffda96" width="100px" height="100px" duration="5s" />
+  </>
   <>
   <BarWave onClick={() => alert("Clicked")} key="key" />
   </>
-  </>
+  
   <Layout>
     <Container>
       <Box
