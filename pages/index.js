@@ -21,7 +21,8 @@ import { age } from '../components/time';
 import React, { useEffect, useState } from "react";
 import ReactLoading from "react-loading";
 
-function Loader() {
+const Home = () => (
+  
   const [data, setData] = useState([]);
   const [done, setDone] = useState(undefined);
 
@@ -56,8 +57,7 @@ function Loader() {
     </>
   );
 }
-
-const Home = () => (
+  
   <Layout>
     <Container>
       <Box
