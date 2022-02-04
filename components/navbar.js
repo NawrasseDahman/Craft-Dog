@@ -16,7 +16,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./theme-toggle-button";
-import { FaSpotify, FaListAlt, FaBuffer, FaElementor } from "react-icons/fa";
+import { FaListAlt, FaBuffer, FaElementor } from "react-icons/fa";
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href;
@@ -130,12 +130,6 @@ const Navbar = (props) => {
                 <NextLink href="/technologies" passHref>
                   <MenuItem as={Link}>Technologies</MenuItem>
                 </NextLink>
-                <MenuItem
-                  as={Link}
-                  href="https://open.spotify.com/user/4pevqlgntbtzf7quj0q307245?si=i38Ih3MgQTuypyjtO7cH6w&utm_source=copy-link"
-                >
-                  Spotify
-                </MenuItem>
                 <NextLink href="/business" passHref>
                   <MenuItem as={Link}>Business</MenuItem>
                 </NextLink>            
