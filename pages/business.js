@@ -15,7 +15,7 @@ import { FaRegCaretSquareRight } from "react-icons/fa";
 import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
-import { SiTwitter, SiCodepen, SiDiscord, SiMaildotru } from "react-icons/si";
+import { SiTwitter, SiFacebook, SiDiscord, SiMaildotru } from "react-icons/si";
 
 const Business = () => (
   <Layout>
@@ -97,11 +97,11 @@ const Business = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://codepen.io/NawrasseDahman" target="_blank">
+            <Link href="https://www.facebook.com/NawrasseDahman" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={SiCodepen} />}
+                leftIcon={<Icon as={SiFacebook} />}
               >
                 @NawrasseDahman
               </Button>
