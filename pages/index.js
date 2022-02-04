@@ -26,10 +26,10 @@ const Home = () => (
    
   return (
   <BarWave />
-  <React.Fragment>
+  <>
   <BarWave color="#ffda96" width="100px" height="100px" duration="5s" />
   <BarWave onClick={() => alert("Clicked")} key="key" />
-  </React.Fragment>
+  </>
 )
   <Layout>
     <Container>
