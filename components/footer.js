@@ -4,12 +4,6 @@ import Layout from '../components/Layout'
 
 const Footer = () => {
   return (
-    
-  title: 'Markdown/MDX with Next.js',
-  author: 'Lee Robinson'
-}
-
-hi
 
     <Box align="center" opacity={0.4} fontSize="sm">
     <Section delay={0.4} />
@@ -19,4 +13,4 @@ hi
   )
 }
 
-export default Footer ({ children }) => <Layout meta={meta}>{children}</Layout>
+export default Footer
