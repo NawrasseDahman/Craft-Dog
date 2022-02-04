@@ -29,7 +29,7 @@ const Projects = () => (
   <Layout title="Projects">
     <Container>
       <Heading
-                as="h2"
+                as="h3"
                 fontSize={{ base: "24px", md: "30px", lg: "36px" }}
                 mb={3} variant="section-title"
             >
@@ -70,7 +70,7 @@ const Projects = () => (
         <Divider my={6} />
           
         <Heading
-                as="h2"
+                as="h3"
                 fontSize={{ base: "24px", md: "30px", lg: "36px" }}
                 mb={3} variant="section-title"
             >
@@ -111,7 +111,7 @@ const Projects = () => (
         <Divider my={6} />
 
          <Heading
-                as="h2"
+                as="h3"
                 fontSize={{ base: "24px", md: "30px", lg: "36px" }}
                 mb={3} variant="section-title"
             >
