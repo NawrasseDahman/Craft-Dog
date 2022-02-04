@@ -24,7 +24,7 @@ import { Zoom } from 'react-preloaders';
 
 const Home = () => (
 
-   function App() {
+   function Home() {
    return (
      <React.Fragment>
        <Zoom />
