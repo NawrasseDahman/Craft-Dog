@@ -28,9 +28,8 @@ const override = css`
   loading: true;
 `;
 
-function App() {
-  let [loading, setLoading] = useState(true);
-  let [color, setColor] = useState("#ffda96");
+  
+  
 
   return (
     <div className="sweet-loading">
