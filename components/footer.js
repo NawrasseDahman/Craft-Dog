@@ -5,8 +5,6 @@ import Layout from '../components/Layout'
 const Footer = () => {
   return (
     
-
-export const meta = {
   title: 'Markdown/MDX with Next.js',
   author: 'Lee Robinson'
 }
