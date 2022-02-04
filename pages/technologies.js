@@ -16,6 +16,7 @@ import {
          SiCss3,
          SiJava,
          SiNpm,
+         SiRuby,
          SiMarkdown,
          SiGo,
          SiTorbrowser,
@@ -181,6 +182,11 @@ const TechStack = () => {
         name: "JSON",
         icon: <SiJson fontSize="20px" />,
         url: "https://json.org/",
+    },
+    {
+        name: "Ruby",
+        icon: <SiRuby fontSize="20px" />,
+        url: "https://ruby-lang.org/",
     },
 
 ];
