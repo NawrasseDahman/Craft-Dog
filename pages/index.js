@@ -32,7 +32,7 @@ const Home = () => (
     render() {
       return (
         <div>
-          <BallBeat color={"#ffda96"} loading={this.state.loading} />
+          <Scale color={"#ffda96"} loading={this.state.loading} />
         </div>
       );
     }
