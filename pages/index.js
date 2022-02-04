@@ -22,9 +22,6 @@ import React, { useEffect, useState } from "react";
 import ReactLoading from "react-loading";
 
 const Home = () => (
-  
-  const [data, setData] = useState([]);
-  const [done, setDone] = useState(undefined);
 
   useEffect(() => {
     setTimeout(() => {
