@@ -186,7 +186,7 @@ const TechStack = () => {
     {
         name: "Ruby",
         icon: <SiRuby fontSize="20px" />,
-        url: "https://ruby-lang.org/",
+        url: "https://www.ruby-lang.org/en/",
     },
 
 ];
