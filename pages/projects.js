@@ -28,9 +28,13 @@ import thumbclockwise from "../public/images/contents/clockwise.png";
 const Projects = () => (
   <Layout title="Projects">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
-        Popular Projects
-      </Heading>
+      <Heading
+                as="h1"
+                fontSize={{ base: "24px", md: "30px", lg: "36px" }}
+                mb={3} variant="section-title"
+            >
+                Popular Projects
+            </Heading>
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
@@ -65,9 +69,13 @@ const Projects = () => (
       <Section delay={0.5} />
         <Divider my={6} />
           
-        <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
-         </Heading>
+        <Heading
+                as="h1"
+                fontSize={{ base: "24px", md: "30px", lg: "36px" }}
+                mb={3} variant="section-title"
+            >
+                Collaborations
+            </Heading>
 
       <Section delay={0.7}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
@@ -102,9 +110,13 @@ const Projects = () => (
       <Section delay={0.11} />
         <Divider my={6} />
 
-         <Heading as="h3" fontSize={20} mb={4}>
-          Old Projects
-         </Heading>
+         <Heading
+                as="h1"
+                fontSize={{ base: "24px", md: "30px", lg: "36px" }}
+                mb={3} variant="section-title"
+            >
+                Old Projects
+            </Heading>
 
        <Section delay={0.13}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
