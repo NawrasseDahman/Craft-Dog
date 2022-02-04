@@ -26,10 +26,7 @@ const override = css`
   border-color: "#ffda96";
   color: "#ffda96";
   loading: true;
-`;
-
-  
-  
+`; 
 
   return (
     <div className="sweet-loading">
@@ -39,8 +36,6 @@ const override = css`
       <ClipLoader color={color} loading={loading} css={override} size={150} />
     </div>
   );
-}
-
 
 const Home = () => (
   <Layout>
