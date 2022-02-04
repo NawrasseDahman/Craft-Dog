@@ -29,7 +29,6 @@ import {
          SiPrettier,
          SiCodepen,
          SiGithub,
-         SiPug,
          SiPython,
          SiElectron,
          SiVuedotjs as SiVueDotJs,
@@ -114,11 +113,6 @@ const TechStack = () => {
         name: "Go",
         icon: <SiGo fontSize="20px" />,
         url: "https://go.dev/",
-    },
-    {
-        name: "Pug",
-        icon: <SiPug fontSize="20px" />,
-        url: "https://pugjs.org/",
     },
     {
         name: "Markdown",
