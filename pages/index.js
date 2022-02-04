@@ -57,9 +57,6 @@ function Loader() {
   );
 }
 
-export default Loader;
-
-
 const Home = () => (
   <Layout>
     <Container>
