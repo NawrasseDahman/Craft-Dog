@@ -18,7 +18,6 @@ import Section from "../components/section";
 import { SiCodepen, SiInstagram, SiGithub, SiSpotify } from "react-icons/si";
 import { FaRegCaretSquareRight } from "react-icons/fa";
 import { age } from "../components/time";
-import React from "react";
 
 const Home = () => (
   <Layout>
