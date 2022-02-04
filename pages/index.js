@@ -32,7 +32,7 @@ const Home = () => (
        <Lines background="blur" />;
      </React.Fragment>
   );
-}
+},
   
   <Layout>
     <Container>
