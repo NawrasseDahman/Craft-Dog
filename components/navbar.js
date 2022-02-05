@@ -16,7 +16,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./theme-toggle-button";
-import { FaListAlt, FaBuffer, FaElementor } from "react-icons/fa";
+import { FaListAlt, FaBuffer, FaElementor, FaAtlas } from "react-icons/fa";
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href;
@@ -97,6 +97,18 @@ const Navbar = (props) => {
           </LinkItem>
           <LinkItem
             _target="_blank"
+            href="https://nawrasseblog.netlify.app/blog"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <FaAtlas />
+            Blog
+          </LinkItem>
+          <LinkItem
+            _target="_blank"
             href="/business"
             path={path}
             display="inline-flex"
@@ -130,6 +142,12 @@ const Navbar = (props) => {
                 <NextLink href="/technologies" passHref>
                   <MenuItem as={Link}>Technologies</MenuItem>
                 </NextLink>
+                <MenuItem
+                  as={Link}
+                  href="https://nawrasseblog.netlify.app/blog"
+                >
+                  Blog
+                </MenuItem>
                 <NextLink href="/business" passHref>
                   <MenuItem as={Link}>Business</MenuItem>
                 </NextLink>            
