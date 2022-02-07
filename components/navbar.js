@@ -97,7 +97,7 @@ const Navbar = (props) => {
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href="https://nawrasseblog.netlify.app/blog"
+            href="https://nawrasseblog.vercel.app/blog"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -144,7 +144,7 @@ const Navbar = (props) => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://nawrasseblog.netlify.app/blog"
+                  href="https://nawrasseblog.vercel.app/blog"
                 >
                   Blog
                 </MenuItem>
