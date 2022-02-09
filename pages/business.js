@@ -69,7 +69,7 @@ const Business = () => (
           Back To You As Soon As Possible.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/images/cv.pdf">
+          <NextLink href="/images/resume.pdf">
             <Button rightIcon={<FaRegCaretSquareRight />} colorScheme="teal">
               Download My Resume
             </Button>
