@@ -19,7 +19,6 @@ const NotFound = () => {
           Wrong. I&apos;m Guessing You Spelled Something Wrong. So Can You Double Check
           That URL, Please?
       </Text>
-      <Divider my={6} />
 
       <Box my={6} align="center">
         <NextLink href="/">
