@@ -12,6 +12,7 @@ const NotFound = () => {
   return (
     <Container>
       <Heading as="h1">451 – Unavailable For Legal Reasons</Heading>
+      <span>&nbsp;</span>
       <Text>
           Why Show A Generic 404 Page When I Can Make It Sound Mysterious? It Seems
           That You&apos;ve Found Something That Used To Exist, Or You Spelled Something
