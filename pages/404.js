@@ -11,8 +11,13 @@ import {
 const NotFound = () => {
   return (
     <Container>
-      <Heading as="h1">Not found: 404</Heading>
-      <Text>The Page You&apos;re Looking For Was Not Found.</Text>
+      <Heading as="h1">451 – Unavailable For Legal Reasons</Heading>
+      <Text>
+          Why Show A Generic 404 Page When I Can Make It Sound Mysterious? It Seems
+          That You&apos;ve Found Something That Used To Exist, Or You Spelled Something
+          Wrong. I&apos;m Guessing You Spelled Something Wrong. So Can You Double Check
+          That URL, Please?
+      </Text>
       <Divider my={6} />
 
       <Box my={6} align="center">
