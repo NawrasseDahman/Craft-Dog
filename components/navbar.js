@@ -15,7 +15,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./theme-toggle-button";
-import { FaListAlt, FaBuffer, FaElementor, FaAtlas, FaHome } from "react-icons/fa";
+import { FaListAlt, FaBuffer, FaElementor, FaHome } from "react-icons/fa";
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href;
@@ -104,18 +104,6 @@ const Navbar = (props) => {
           >
             <FaElementor />
             Stack
-          </LinkItem>
-          <LinkItem
-            _target="_blank"
-            href="https://nawrasseblog.vercel.app/blog"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <FaAtlas />
-            Blog
           </LinkItem>
           <LinkItem
             _target="_blank"
