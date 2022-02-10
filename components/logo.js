@@ -25,7 +25,7 @@ const Logo = () => {
         <LogoBox>
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-            fontFamily='Cairo", typeface'
+            fontFamily='Roboto", sans-serif'
             ml={3}
           >
             Nawrasse Dahman
