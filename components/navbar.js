@@ -95,7 +95,7 @@ const Navbar = (props) => {
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href="/technologies"
+            href="/stack"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -103,7 +103,7 @@ const Navbar = (props) => {
             pl={2}
           >
             <FaElementor />
-            Technologies
+            Stack
           </LinkItem>
           <LinkItem
             _target="_blank"
@@ -130,7 +130,7 @@ const Navbar = (props) => {
             Business
           </LinkItem>
         </Stack>
-        <Box flex={1} align="left">
+        <Box flex={1} align="center">
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: "inline-block", md: "none" }}>
@@ -149,8 +149,8 @@ const Navbar = (props) => {
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
-                <NextLink href="/technologies" passHref>
-                  <MenuItem as={Link}>Technologies</MenuItem>
+                <NextLink href="/stack" passHref>
+                  <MenuItem as={Link}>Stack</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
