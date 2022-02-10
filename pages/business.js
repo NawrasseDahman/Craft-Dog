@@ -150,3 +150,4 @@ const Business = () => (
 );
 
 export default Business;
+export { getInitialProps } from '../components/chakra'
