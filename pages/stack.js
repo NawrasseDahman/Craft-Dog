@@ -215,3 +215,4 @@ const TechStack = () => {
 }
 
 export default TechStack;
+export { getInitialProps } from '../components/chakra'
