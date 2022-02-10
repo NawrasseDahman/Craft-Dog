@@ -119,7 +119,7 @@ const Navbar = (props) => {
           </LinkItem>
         </Stack>
 
-        <Box flex={1} align="right">
+        <Box flex={1} align="left">
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: "inline-block", md: "none" }}>
