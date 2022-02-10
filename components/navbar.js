@@ -40,10 +40,10 @@ const Navbar = (props) => {
 
   return (
     <Box
-      position="fixed"
+      position="sticky"
       as="nav"
       w="100%"
-      bg={useColorModeValue("#ffffff40", "#20202380")}
+      bg={useColorModeValue("#FFFAF0", "#202023")}
       zIndex={1}
       {...props}
     >
