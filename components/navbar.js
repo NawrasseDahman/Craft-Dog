@@ -79,7 +79,7 @@ const Navbar = (props) => {
             pl={2}
           >
             <FaHome />
-            Projects
+            Home
           </LinkItem>
           <LinkItem
             _target="_blank"
@@ -130,7 +130,7 @@ const Navbar = (props) => {
             Business
           </LinkItem>
         </Stack>
-        <Box flex={1} align="right">
+        <Box flex={1} align="left">
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: "inline-block", md: "none" }}>
