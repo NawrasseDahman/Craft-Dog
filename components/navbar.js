@@ -15,7 +15,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./theme-toggle-button";
-import { FaListAlt, FaBuffer, FaElementor, FaAtlas } from "react-icons/fa";
+import { FaListAlt, FaBuffer, FaElementor, FaAtlas, FaHome } from "react-icons/fa";
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href;
@@ -69,6 +69,18 @@ const Navbar = (props) => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
+          <LinkItem
+            _target="_blank"
+            href="/"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <FaHome />
+            Projects
+          </LinkItem>
           <LinkItem
             _target="_blank"
             href="/projects"
@@ -128,7 +140,7 @@ const Navbar = (props) => {
                 icon={<HamburgerIcon />}
                 variant="outline"
                 aria-label="Options"
-                alignItem="left"
+                
               />
               <MenuList>
                 <NextLink href="/" passHref>
