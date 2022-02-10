@@ -203,3 +203,4 @@ const Home = () => (
 );
 
 export default Home;
+export { getInitialProps } from '../components/chakra'
