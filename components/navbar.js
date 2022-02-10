@@ -118,7 +118,7 @@ const Navbar = (props) => {
             Business
           </LinkItem>
         </Stack>
-        <Box flex={1} align="center">
+        <Box flex={1} align="left">
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: "inline-block", md: "none" }}>
@@ -140,12 +140,6 @@ const Navbar = (props) => {
                 <NextLink href="/stack" passHref>
                   <MenuItem as={Link}>Stack</MenuItem>
                 </NextLink>
-                <MenuItem
-                  as={Link}
-                  href="https://nawrasseblog.vercel.app/blog"
-                >
-                  Blog
-                </MenuItem>
                 <NextLink href="/business" passHref>
                   <MenuItem as={Link}>Business</MenuItem>
                 </NextLink>            
