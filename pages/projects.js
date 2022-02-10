@@ -160,3 +160,4 @@ const Projects = () => (
 );
 
 export default Projects;
+export { getInitialProps } from '../components/chakra'
