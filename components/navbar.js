@@ -19,7 +19,7 @@ import { FaListAlt, FaBuffer, FaElementor, FaHome } from "react-icons/fa";
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href;
-  const inactiveColor = useColorModeValue("Gray.200", "whiteAlpha.900");
+  const inactiveColor = useColorModeValue("Orange.50", "whiteAlpha.900");
   return (
     <NextLink href={href} passHref>
       <Link
