@@ -27,6 +27,7 @@ import thumbarbershop from "../public/images/contents/barbershop.png";
 import thumbclockwise from "../public/images/contents/clockwise.png";
 
 const Projects = () => (
+   <Layout title="Projects">
     <Container>
       <Heading
                 as="h3"
@@ -156,6 +157,7 @@ const Projects = () => (
           </Link>
         </Box>
     </Container>
+   </Layout>
 );
 
 export default Projects;
