@@ -7,8 +7,10 @@ import {
   Link,
   Button
 } from "@chakra-ui/react";
-import Section from "@/components/section";
-import { GridItem } from "@/components/grid-item";
+
+import Layout from "../components/layouts/article";
+import Section from "../components/section";
+import { GridItem } from "../components/grid-item";
 import { RiGitRepositoryLine } from "react-icons/ri";
 
 import thumbcountdown from "../public/images/contents/countdown.png";
