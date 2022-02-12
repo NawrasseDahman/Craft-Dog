@@ -7,26 +7,24 @@ import {
   Link,
   Button
 } from "@chakra-ui/react";
-import Layout from "../components/layouts/article";
-import Section from "../components/section";
-import { GridItem } from "../components/grid-item";
+import Section from "@/components/section";
+import { GridItem } from "@/components/grid-item";
 import { RiGitRepositoryLine } from "react-icons/ri";
 
-import thumbcountdown from "../public/images/contents/countdown.png";
-import thumbterminal from "../public/images/contents/terminal.png";
-import thumbsearch from "../public/images/contents/searchedme.png";
-import thumbhouse from "../public/images/contents/house3d.png";
-import thumbcovid from "../public/images/contents/statsforcovid.png";
-import thumbinnocent from "../public/images/contents/innocent.png";
-import thumbthemechanger from "../public/images/contents/themechanger.png";
-import thumbsuperstardj from "../public/images/contents/superstardj.png";
-import thumbdiscordstage from "../public/images/contents/discordstage.png";
-import thumbmatrixrain from "../public/images/contents/matrixrain.png";
-import thumbarbershop from "../public/images/contents/barbershop.png";
-import thumbclockwise from "../public/images/contents/clockwise.png";
+import thumbcountdown from "@/images/countdown.png";
+import thumbterminal from "@/images/terminal.png";
+import thumbsearch from "@/images/searchedme.png";
+import thumbhouse from "@/images/house3d.png";
+import thumbcovid from "@/images/statsforcovid.png";
+import thumbinnocent from "@/images/innocent.png";
+import thumbthemechanger from "@/images/themechanger.png";
+import thumbsuperstardj from "@/images/superstardj.png";
+import thumbdiscordstage from "@/images/discordstage.png";
+import thumbmatrixrain from "@/images/matrixrain.png";
+import thumbarbershop from "@/images/barbershop.png";
+import thumbclockwise from "@/images/clockwise.png";
 
 const Projects = () => (
-  <Layout title="Projects">
     <Container>
       <Heading
                 as="h3"
@@ -156,8 +154,6 @@ const Projects = () => (
           </Link>
         </Box>
     </Container>
-  </Layout>
 );
 
 export default Projects;
-export { getInitialProps } from '../components/chakra'
